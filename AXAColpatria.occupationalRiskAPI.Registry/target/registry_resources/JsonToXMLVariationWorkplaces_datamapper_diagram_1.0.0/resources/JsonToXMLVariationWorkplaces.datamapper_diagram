@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_ocjzULGGEe-CLO-Tph5QVA" type="DataMapper" name="JsonToXMLVariationWorkplaces.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_opkUkLGGEe-CLO-Tph5QVA" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_uAy38LGGEe-CLO-Tph5QVA" type="3002" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_uAzfALGGEe-CLO-Tph5QVA" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_uA6MsLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_uA6MsrGGEe-CLO-Tph5QVA" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_uA93ELGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_uA93ErGGEe-CLO-Tph5QVA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_uBATULGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uBATUrGGEe-CLO-Tph5QVA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_uBDWoLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uBDWorGGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uBHoELGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBHoEbGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uBHoErGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBHoE7GGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBDWobGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uBDWo7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uBDWpbGGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uBQK8LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBQK8bGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uBQK8rGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBQK87GGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBDWpLGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uBEkwLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uBEkwrGGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uBT1ULGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.2/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBT1UbGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uBT1UrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.2/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBT1U7GGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.2"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBEkwbGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uBEkw7GGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBEkxLGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uBEkxbGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBEkxrGGEe-CLO-Tph5QVA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBATUbGGEe-CLO-Tph5QVA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_uBATU7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uBATVbGGEe-CLO-Tph5QVA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_uBgCkLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uBgpoLGGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uBpMgLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.0/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBpMgbGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uBpMgrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.0/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBpMg7GGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBgCkbGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uBgpobGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uBgpo7GGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uB1ZwLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.1/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uB1ZwbGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uB1ZwrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.1/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uB1Zw7GGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.1"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBgporGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uBgppLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_uBgpprGGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_uB98oLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_uB98orGGEe-CLO-Tph5QVA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_uCA_8LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.0/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCA_8bGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uCA_8rGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.0/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCA_87GGEe-CLO-Tph5QVA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uB98obGGEe-CLO-Tph5QVA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uB98o7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_uB98pbGGEe-CLO-Tph5QVA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_uCEqULGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.1/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCEqUbGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uCEqUrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.1/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCEqU7GGEe-CLO-Tph5QVA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.1"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uB98pLGGEe-CLO-Tph5QVA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uB-jsLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_uB-jsrGGEe-CLO-Tph5QVA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_uCKw8LGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uCLYALGGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_uCPpcLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_uCPpcrGGEe-CLO-Tph5QVA" type="5001"/>
+                    <children xmi:type="notation:Shape" xmi:id="_uCVwELGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                      <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@node.0/@inNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCWXILGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_uCWXIbGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                      <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@node.0/@outNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCWXIrGGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@node.0"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCPpcbGGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_uCPpc7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_uCPpdbGGEe-CLO-Tph5QVA" type="5001"/>
+                    <children xmi:type="notation:Shape" xmi:id="_uCdr4LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                      <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@node.1/@inNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCdr4bGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_uCdr4rGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                      <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@node.1/@outNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCdr47GGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@node.1"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCPpdLGGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_uCPpdrGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCPpd7GGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_uCPpeLGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCPpebGGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCKw8bGGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uCLYAbGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uCLYA7GGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_uCjygLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_uCjygrGGEe-CLO-Tph5QVA" type="5001"/>
+                    <children xmi:type="notation:Shape" xmi:id="_uClnsLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                      <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@node.0/@inNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uClnsbGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_uCmOwLGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                      <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@node.0/@outNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCmOwbGGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@node.0"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCjygbGGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_uCjyg7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_uCjyhbGGEe-CLO-Tph5QVA" type="5001"/>
+                    <children xmi:type="notation:Shape" xmi:id="_uCp5ILGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                      <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@node.1/@inNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCp5IbGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_uCp5IrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                      <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@node.1/@outNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCp5I7GGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@node.1"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCjyhLGGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_uCjyhrGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCjyh7GGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_uCjyiLGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCjyibGGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCLYArGGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uCLYBLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uCLYBrGGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_uC1fULGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.2/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uC1fUbGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_uC1fUrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.2/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uC1fU7GGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.2"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCLYBbGGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uCLYB7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uCLYCbGGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_uC7l8LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.3/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uC7l8bGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_uC8NALGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.3/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uC8NAbGGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.3"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCLYCLGGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uCLYCrGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_uCLYDLGGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_uDC6sLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.4/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uDC6sbGGEe-CLO-Tph5QVA" x="-11" y="-9"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_uDC6srGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.4/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uDC6s7GGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.4"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCLYC7GGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uCLYDbGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCLYDrGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_uCLYD7GGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCLYELGGEe-CLO-Tph5QVA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uB-jsbGGEe-CLO-Tph5QVA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uB-js7GGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uB-jtLGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_uB-jtbGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uB-jtrGGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBgppbGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uBgpp7GGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBgpqLGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_uBgpqbGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBgpqrGGEe-CLO-Tph5QVA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBATVLGGEe-CLO-Tph5QVA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_uBATVrGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBATV7GGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_uBATWLGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uBATWbGGEe-CLO-Tph5QVA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uA93EbGGEe-CLO-Tph5QVA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_uA93E7GGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uA93FLGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_uA-eILGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uA-eIbGGEe-CLO-Tph5QVA"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uA6MsbGGEe-CLO-Tph5QVA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uA6Ms7GGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uA6MtLGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uA6MtbGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uA6MtrGGEe-CLO-Tph5QVA"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uAy38bGGEe-CLO-Tph5QVA"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="JsonToXMLVariationWorkplaces.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_opkUkbGGEe-CLO-Tph5QVA" width="250" height="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_opmJwLGGEe-CLO-Tph5QVA" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_wWwCsLGGEe-CLO-Tph5QVA" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_wWwCsrGGEe-CLO-Tph5QVA" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_wW07MLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_wW07MrGGEe-CLO-Tph5QVA" type="5001"/>
+        <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW07MbGGEe-CLO-Tph5QVA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wW07M7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_wW07NbGGEe-CLO-Tph5QVA" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_wW8P8LGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_wW8P8rGGEe-CLO-Tph5QVA" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_wW-sMLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wW-sMrGGEe-CLO-Tph5QVA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_wXCWkLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wXCWkrGGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_wXEy0LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXEy0bGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_wXGA8LGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXGA8bGGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXCWkbGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wXCWk7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wXCWlbGGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_wXJrULGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXJrUbGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_wXJrUrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXJrU7GGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXCWlLGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wXCWlrGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wXCWmLGGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_wXNVsLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXN8wLGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_wXN8wbGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXN8wrGGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXCWl7GGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wXCWmbGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wXCWm7GGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_wXSOMLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXSOMbGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_wXSOMrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXSOM7GGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXCWmrGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wXCWnLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wXCWnrGGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_wXWfoLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXWfobGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_wXWforGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXWfo7GGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXCWnbGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wXCWn7GGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXCWoLGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wXCWobGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXCWorGGEe-CLO-Tph5QVA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW-sMbGGEe-CLO-Tph5QVA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wW_TQLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wW_TQrGGEe-CLO-Tph5QVA" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_wXdNULGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_wXdNUrGGEe-CLO-Tph5QVA" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_wXfpkLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_wXfpkrGGEe-CLO-Tph5QVA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_wXiF0LGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_wXiF0rGGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_wXkiELGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXkiEbGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_wXkiErGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.0/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXkiE7GGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXiF0bGGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_wXiF07GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_wXiF1bGGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_wXoMcLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXoMcbGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_wXoMcrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXoMc7GGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXiF1LGGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_wXiF1rGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_wXiF2LGGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_wXsd4LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXsd4bGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_wXsd4rGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.2/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXsd47GGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.2"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXiF17GGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_wXiF2bGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXiF2rGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_wXiF27GGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXiF3LGGEe-CLO-Tph5QVA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXfpkbGGEe-CLO-Tph5QVA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_wXfpk7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                <children xmi:type="notation:DecorationNode" xmi:id="_wXgQoLGGEe-CLO-Tph5QVA" type="5001"/>
+                <children xmi:type="notation:Shape" xmi:id="_wXykgLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_wXykgrGGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_wX1n0LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.0/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wX1n0bGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_wX1n0rGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.0/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wX1n07GGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.0"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXykgbGGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_wXykg7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_wXykhbGGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_wX4rILGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.1/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wX4rIbGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_wX4rIrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.1/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wX4rI7GGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.1"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXykhLGGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_wXykhrGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_wXzLkLGGEe-CLO-Tph5QVA" type="5001"/>
+                  <children xmi:type="notation:Shape" xmi:id="_wX9joLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_wX9jorGGEe-CLO-Tph5QVA" type="5001"/>
+                    <children xmi:type="notation:Shape" xmi:id="_wYAm8LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                      <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.0/@inNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYAm8bGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_wYAm8rGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                      <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.0/@outNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYAm87GGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.0"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wX9jobGGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_wX9jo7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_wX9jpbGGEe-CLO-Tph5QVA" type="5001"/>
+                    <children xmi:type="notation:Shape" xmi:id="_wYERULGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                      <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.1/@inNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYERUbGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_wYERUrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                      <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.1/@outNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYERU7GGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.1"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wX9jpLGGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_wX9jprGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_wX9jqLGGEe-CLO-Tph5QVA" type="5001"/>
+                    <children xmi:type="notation:Shape" xmi:id="_wYH7sLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_wYH7srGGEe-CLO-Tph5QVA" type="5001"/>
+                      <children xmi:type="notation:Shape" xmi:id="_wYK_ALGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_wYK_ArGGEe-CLO-Tph5QVA" type="5001"/>
+                        <children xmi:type="notation:Shape" xmi:id="_wYOCULGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                          <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.0/@node.0/@inNode"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYOCUbGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                        </children>
+                        <children xmi:type="notation:Shape" xmi:id="_wYOpYLGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                          <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.0/@node.0/@outNode"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYOpYbGGEe-CLO-Tph5QVA"/>
+                        </children>
+                        <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.0/@node.0"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYK_AbGGEe-CLO-Tph5QVA"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_wYK_A7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_wYK_BbGGEe-CLO-Tph5QVA" type="5001"/>
+                        <children xmi:type="notation:Shape" xmi:id="_wYUI8LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                          <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.0/@node.1/@inNode"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYUI8bGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                        </children>
+                        <children xmi:type="notation:Shape" xmi:id="_wYUI8rGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                          <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.0/@node.1/@outNode"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYUI87GGEe-CLO-Tph5QVA"/>
+                        </children>
+                        <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.0/@node.1"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYK_BLGGEe-CLO-Tph5QVA"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_wYLmELGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                        <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.0/@inNode"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYLmEbGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_wYLmErGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                        <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.0/@outNode"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYLmE7GGEe-CLO-Tph5QVA"/>
+                      </children>
+                      <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.0"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYH7sbGGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_wYH7s7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_wYH7tbGGEe-CLO-Tph5QVA" type="5001"/>
+                      <children xmi:type="notation:Shape" xmi:id="_wYbdsLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_wYcEwLGGEe-CLO-Tph5QVA" type="5001"/>
+                        <children xmi:type="notation:Shape" xmi:id="_wYd58LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                          <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.1/@node.0/@inNode"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYd58bGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                        </children>
+                        <children xmi:type="notation:Shape" xmi:id="_wYehALGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                          <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.1/@node.0/@outNode"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYehAbGGEe-CLO-Tph5QVA"/>
+                        </children>
+                        <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.1/@node.0"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYbdsbGGEe-CLO-Tph5QVA"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_wYcEwbGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_wYcEw7GGEe-CLO-Tph5QVA" type="5001"/>
+                        <children xmi:type="notation:Shape" xmi:id="_wYhkULGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                          <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.1/@node.1/@inNode"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYhkUbGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                        </children>
+                        <children xmi:type="notation:Shape" xmi:id="_wYhkUrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                          <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.1/@node.1/@outNode"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYhkU7GGEe-CLO-Tph5QVA"/>
+                        </children>
+                        <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.1/@node.1"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYcEwrGGEe-CLO-Tph5QVA"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_wYcExLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                        <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.1/@inNode"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYcExbGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_wYcExrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                        <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.1/@outNode"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYcEx7GGEe-CLO-Tph5QVA"/>
+                      </children>
+                      <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.1"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYH7tLGGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_wYH7trGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_wYH7uLGGEe-CLO-Tph5QVA" type="5001"/>
+                      <children xmi:type="notation:Shape" xmi:id="_wYnD4LGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                        <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.2/@inNode"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYnD4bGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_wYnD4rGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                        <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.2/@outNode"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYnD47GGEe-CLO-Tph5QVA"/>
+                      </children>
+                      <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.2"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYH7t7GGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_wYIiwLGGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_wYIiwrGGEe-CLO-Tph5QVA" type="5001"/>
+                      <children xmi:type="notation:Shape" xmi:id="_wYr8YLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                        <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.3/@inNode"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYr8YbGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_wYr8YrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                        <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.3/@outNode"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYr8Y7GGEe-CLO-Tph5QVA"/>
+                      </children>
+                      <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.3"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYIiwbGGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_wYIiw7GGEe-CLO-Tph5QVA" type="3003" fontName="Segoe UI">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_wYIixbGGEe-CLO-Tph5QVA" type="5001"/>
+                      <children xmi:type="notation:Shape" xmi:id="_wYvmwLGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                        <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.4/@inNode"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYvmwbGGEe-CLO-Tph5QVA" x="-10" y="4"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_wYvmwrGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                        <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.4/@outNode"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYvmw7GGEe-CLO-Tph5QVA"/>
+                      </children>
+                      <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@node.4"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYIixLGGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_wYIixrGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                      <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@inNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYIix7GGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_wYIiyLGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                      <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2/@outNode"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYIiybGGEe-CLO-Tph5QVA"/>
+                    </children>
+                    <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@node.2"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wX9jp7GGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_wX9jqbGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                    <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@inNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wX9jqrGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_wX-KsLGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                    <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2/@outNode"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wX-KsbGGEe-CLO-Tph5QVA"/>
+                  </children>
+                  <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@node.2"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXykh7GGEe-CLO-Tph5QVA"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_wXzLkbGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                  <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@inNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXzLkrGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+                </children>
+                <children xmi:type="notation:Shape" xmi:id="_wXzLk7GGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                  <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1/@outNode"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXzLlLGGEe-CLO-Tph5QVA"/>
+                </children>
+                <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.1"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXfplLGGEe-CLO-Tph5QVA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_wXgQobGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+                <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXgQorGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_wXgQo7GGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+                <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXgQpLGGEe-CLO-Tph5QVA"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXdNUbGGEe-CLO-Tph5QVA"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wXdNU7GGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+              <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXdNVLGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wXdNVbGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+              <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wXdNVrGGEe-CLO-Tph5QVA"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@node.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW_TQbGGEe-CLO-Tph5QVA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wW_TQ7GGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW_TRLGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wW_TRbGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW_TRrGGEe-CLO-Tph5QVA"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW8P8bGGEe-CLO-Tph5QVA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wW8P87GGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW8P9LGGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wW8P9bGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW8P9rGGEe-CLO-Tph5QVA"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW07NLGGEe-CLO-Tph5QVA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wW07NrGGEe-CLO-Tph5QVA" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW07N7GGEe-CLO-Tph5QVA" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wW07OLGGEe-CLO-Tph5QVA" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wW07ObGGEe-CLO-Tph5QVA"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="JsonToXMLVariationWorkplaces.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wWwCsbGGEe-CLO-Tph5QVA"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="JsonToXMLVariationWorkplaces.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_opmJwbGGEe-CLO-Tph5QVA" x="786" y="216" width="414" height="640"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_UgNkMLGHEe-CLO-Tph5QVA" type="2035" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_Ugl-sLGHEe-CLO-Tph5QVA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_UjlBQLGHEe-CLO-Tph5QVA" type="3013" fontName="Segoe UI">
+        <element xmi:type="datamapper:OperatorLeftContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.0/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjlBQbGHEe-CLO-Tph5QVA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_UjloULGHEe-CLO-Tph5QVA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_UmZrwLGHEe-CLO-Tph5QVA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_UmcvELGHEe-CLO-Tph5QVA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UmcvEbGHEe-CLO-Tph5QVA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UmZrwbGHEe-CLO-Tph5QVA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.0/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UjloUbGHEe-CLO-Tph5QVA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.0/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ugl-sbGHEe-CLO-Tph5QVA"/>
+    </children>
+    <element xmi:type="datamapper:Properties" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UgOyULGHEe-CLO-Tph5QVA" x="414" y="12"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_25dvgLGLEe-CLO-Tph5QVA" type="2035" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_26EMcLGLEe-CLO-Tph5QVA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_26NWYLGLEe-CLO-Tph5QVA" type="3013" fontName="Segoe UI">
+        <element xmi:type="datamapper:OperatorLeftContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.1/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26NWYbGLEe-CLO-Tph5QVA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_26NWYrGLEe-CLO-Tph5QVA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_272VILGLEe-CLO-Tph5QVA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_272VIrGLEe-CLO-Tph5QVA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_272VI7GLEe-CLO-Tph5QVA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_272VIbGLEe-CLO-Tph5QVA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.1/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26NWY7GLEe-CLO-Tph5QVA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.1/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26EMcbGLEe-CLO-Tph5QVA"/>
+    </children>
+    <element xmi:type="datamapper:Properties" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_25dvgbGLEe-CLO-Tph5QVA" x="258" y="42"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_8EiGMLGLEe-CLO-Tph5QVA" type="2035" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_8ErQILGLEe-CLO-Tph5QVA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_8ErQIrGLEe-CLO-Tph5QVA" type="3013" fontName="Segoe UI">
+        <element xmi:type="datamapper:OperatorLeftContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.2/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ErQI7GLEe-CLO-Tph5QVA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8E1BILGLEe-CLO-Tph5QVA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_8F3i8LGLEe-CLO-Tph5QVA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_8F3i8rGLEe-CLO-Tph5QVA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.2/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8F3i87GLEe-CLO-Tph5QVA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.2/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8F3i8bGLEe-CLO-Tph5QVA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.2/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8E1BIbGLEe-CLO-Tph5QVA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.2/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ErQIbGLEe-CLO-Tph5QVA"/>
+    </children>
+    <element xmi:type="datamapper:Properties" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8EiGMbGLEe-CLO-Tph5QVA" x="348" y="72"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_F20foLGMEe-CLO-Tph5QVA" type="2035" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_F3IBoLGMEe-CLO-Tph5QVA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_F3RLkLGMEe-CLO-Tph5QVA" type="3013" fontName="Segoe UI">
+        <element xmi:type="datamapper:OperatorLeftContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.3/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F3RLkbGMEe-CLO-Tph5QVA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_F3RLkrGMEe-CLO-Tph5QVA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_F4deYLGMEe-CLO-Tph5QVA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_F4deYrGMEe-CLO-Tph5QVA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.3/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F4deY7GMEe-CLO-Tph5QVA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.3/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F4deYbGMEe-CLO-Tph5QVA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.3/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F3RLk7GMEe-CLO-Tph5QVA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.3/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F3IBobGMEe-CLO-Tph5QVA"/>
+    </children>
+    <element xmi:type="datamapper:Properties" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F20fobGMEe-CLO-Tph5QVA" x="348" y="96"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_L1O-0LGMEe-CLO-Tph5QVA" type="2035" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_L1O-0rGMEe-CLO-Tph5QVA" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_L1O-1LGMEe-CLO-Tph5QVA" type="3013" fontName="Segoe UI">
+        <element xmi:type="datamapper:OperatorLeftContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.4/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L1O-1bGMEe-CLO-Tph5QVA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_L1O-1rGMEe-CLO-Tph5QVA" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_L1-lsLGMEe-CLO-Tph5QVA" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_L2IWsLGMEe-CLO-Tph5QVA" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.4/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L2IWsbGMEe-CLO-Tph5QVA"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.4/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L1-lsbGMEe-CLO-Tph5QVA"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.4/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L1O-17GMEe-CLO-Tph5QVA"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.4/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L1O-07GMEe-CLO-Tph5QVA"/>
+    </children>
+    <element xmi:type="datamapper:Properties" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.4"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L1O-0bGMEe-CLO-Tph5QVA" x="396" y="132"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_oclBcLGGEe-CLO-Tph5QVA"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="JsonToXMLVariationWorkplaces.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_sW0M8LGHEe-CLO-Tph5QVA" type="4001" source="_UmcvELGHEe-CLO-Tph5QVA" target="_wXEy0LGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_sW0M8bGHEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sW0M8rGHEe-CLO-Tph5QVA" points="[-1, 0, -94, -205]$[91, 205, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sXT8MLGHEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sXT8MbGHEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_5-KPkLGLEe-CLO-Tph5QVA" type="4001" source="_272VIrGLEe-CLO-Tph5QVA" target="_wXJrULGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_5-KPkbGLEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5-KPkrGLEe-CLO-Tph5QVA" points="[-1, 0, -93, -195]$[90, 195, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5-m7gLGLEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5-m7gbGLEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BYeFALGMEe-CLO-Tph5QVA" type="4001" source="_8F3i8rGLEe-CLO-Tph5QVA" target="_wXNVsLGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BYeFAbGMEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.2/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BYeFArGMEe-CLO-Tph5QVA" points="[-1, 0, -65, -275]$[62, 275, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BYw_8LGMEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BYw_8bGMEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IZhF4LGMEe-CLO-Tph5QVA" type="4001" source="_F4deYrGMEe-CLO-Tph5QVA" target="_wXSOMLGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_IZhF4bGMEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.3/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IZhF4rGMEe-CLO-Tph5QVA" points="[-1, 0, -70, -271]$[67, 271, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IZhF47GMEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IZhF5LGMEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_OVmp0LGMEe-CLO-Tph5QVA" type="4001" source="_L2IWsLGMEe-CLO-Tph5QVA" target="_wXWfoLGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_OVmp0bGMEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@operators.4/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OVmp0rGMEe-CLO-Tph5QVA" points="[-1, 0, -71, -273]$[68, 273, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OVptILGMEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OVptIbGMEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_5YGfsLGMEe-CLO-Tph5QVA" type="4001" source="_uBHoErGGEe-CLO-Tph5QVA" target="_wXkiELGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_5YGfsbGMEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5YGfsrGMEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5YZaoLGMEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5YZaobGMEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_6WurILGMEe-CLO-Tph5QVA" type="4001" source="_uBQK8rGGEe-CLO-Tph5QVA" target="_wXoMcLGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_6WurIbGMEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6WurIrGMEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6W4cILGMEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6W4cIbGMEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_8lrO8LGMEe-CLO-Tph5QVA" type="4001" source="_uBT1UrGGEe-CLO-Tph5QVA" target="_wXsd4LGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_8lrO8bGMEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8lrO8rGMEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8lrO87GMEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8lrO9LGMEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_WDMLILGNEe-CLO-Tph5QVA" type="4001" source="_uBpMgrGGEe-CLO-Tph5QVA" target="_wX1n0LGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_WDMLIbGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WDMLIrGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WDMLI7GNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WDMLJLGNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_W9MVQLGNEe-CLO-Tph5QVA" type="4001" source="_uB1ZwrGGEe-CLO-Tph5QVA" target="_wX4rILGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_W9MVQbGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W9MVQrGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W9MVQ7GNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W9MVRLGNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_llUcQLGNEe-CLO-Tph5QVA" type="4001" source="_uCA_8rGGEe-CLO-Tph5QVA" target="_wYAm8LGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_llUcQbGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_llUcQrGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lldmMLGNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lldmMbGNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_meVH4LGNEe-CLO-Tph5QVA" type="4001" source="_uCEqUrGGEe-CLO-Tph5QVA" target="_wYERULGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_meVH4bGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_meVH4rGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_meVH47GNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_meVH5LGNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_oAPmkLGNEe-CLO-Tph5QVA" type="4001" source="_uCWXIbGGEe-CLO-Tph5QVA" target="_wYOCULGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_oAPmkbGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oAPmkrGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oAPmk7GNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oAPmlLGNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_onTmkLGNEe-CLO-Tph5QVA" type="4001" source="_uCdr4rGGEe-CLO-Tph5QVA" target="_wYUI8LGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_oncwgLGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oncwgbGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oncwgrGNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oncwg7GNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_rHIfALGNEe-CLO-Tph5QVA" type="4001" source="_uCmOwLGGEe-CLO-Tph5QVA" target="_wYd58LGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_rHIfAbGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rHIfArGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rHIfA7GNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rHIfBLGNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_r6q0wLGNEe-CLO-Tph5QVA" type="4001" source="_uCp5IrGGEe-CLO-Tph5QVA" target="_wYhkULGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_r6q0wbGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r6q0wrGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r6z-sLGNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r6z-sbGNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uCgD8LGNEe-CLO-Tph5QVA" type="4001" source="_uC1fUrGGEe-CLO-Tph5QVA" target="_wYnD4LGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_uCgD8bGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uCgD8rGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uCgD87GNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uCgD9LGNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_urNpwLGNEe-CLO-Tph5QVA" type="4001" source="_uC8NALGGEe-CLO-Tph5QVA" target="_wYr8YLGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_urNpwbGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.3/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_urNpwrGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_urWzsLGNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_urWzsbGNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wlkdoLGNEe-CLO-Tph5QVA" type="4001" source="_uDC6srGGEe-CLO-Tph5QVA" target="_wYvmwLGGEe-CLO-Tph5QVA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_wlkdobGNEe-CLO-Tph5QVA" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="JsonToXMLVariationWorkplaces.datamapper#//@input/@treeNode.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.4/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wlkdorGNEe-CLO-Tph5QVA" points="[-2, 0, -328, -196]$[324, 196, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wlkdo7GNEe-CLO-Tph5QVA" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wlkdpLGNEe-CLO-Tph5QVA" id="CENTER"/>
+  </edges>
+</notation:Diagram>

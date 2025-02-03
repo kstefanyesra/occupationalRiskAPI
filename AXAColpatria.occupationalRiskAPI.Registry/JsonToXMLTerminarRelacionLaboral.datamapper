@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="Body" schemaDataType="OBJECT" level="2">
+        <node name="Empleador" schemaDataType="OBJECT" level="3">
+          <node name="InformacionEmpleador" schemaDataType="OBJECT" level="4">
+            <node name="Identificacion" schemaDataType="OBJECT" level="5">
+              <node name="TipoDocumentoEmpleador" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.0/@node.0/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="NumeroDocumentoEmpleador" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.0/@node.1/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="ConsecutivoNITEmpleador" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.0/@node.2/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="SedeAsociada" schemaDataType="OBJECT" level="5">
+              <node name="CodigoSede" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.0/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="CentroTrabajoAsociado" schemaDataType="OBJECT" level="6">
+                <node name="InformacionCentroTrabajo" schemaDataType="OBJECT" level="7">
+                  <node name="CodigoCentroTrabajo" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode>
+                      <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.1/@node.0/@node.0/@inNode"/>
+                    </outNode>
+                    <inNode/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="properties_id" value="{CodigoCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado"/>
+                <properties key="nullable" value="false"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <node name="EmpleadosAsociadas" schemaDataType="OBJECT" level="6">
+                <node name="FechaFinNovedad" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.2/@node.0/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="Identificacion" schemaDataType="OBJECT" level="7">
+                  <node name="TipoDocumentoEmpleado" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode>
+                      <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.2/@node.1/@node.0/@inNode"/>
+                    </outNode>
+                    <inNode/>
+                  </node>
+                  <node name="NumeroDocumentoEmpleado" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode>
+                      <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.2/@node.1/@node.1/@inNode"/>
+                    </outNode>
+                    <inNode/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="DatosBasicos" schemaDataType="OBJECT" level="7">
+                  <node name="PrimerNombreEmpleado" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode>
+                      <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@inNode"/>
+                    </outNode>
+                    <inNode/>
+                  </node>
+                  <node name="PrimerApellidoEmpleado" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode>
+                      <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@inNode"/>
+                    </outNode>
+                    <inNode/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="properties_id" value="{TipoDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}"/>
+                  <properties key="properties_id" value="{PrimerNombreEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="TipoCotizante" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.2/@node.3/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="SubTipoCotizante" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.2/@node.4/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{InformacionCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}"/>
+                <properties key="properties_id" value="{FechaFinNovedad={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{TipoDocumentoEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador, type=string}, NumeroDocumentoEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador, type=string}, ConsecutivoNITEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador, type=string}}"/>
+              <properties key="properties_id" value="{CodigoSede={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede, type=string}, CentroTrabajoAsociado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado, type=object, properties={InformacionCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}}, EmpleadosAsociadas={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas, type=object, properties={FechaFinNovedad={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoDocumentoEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador, type=string}, NumeroDocumentoEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador, type=string}, ConsecutivoNITEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador, type=string}}}, SedeAsociada={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada, type=object, properties={CodigoSede={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede, type=string}, CentroTrabajoAsociado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado, type=object, properties={InformacionCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}}, EmpleadosAsociadas={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas, type=object, properties={FechaFinNovedad={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}}}}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/Body/Empleador"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{InformacionEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoDocumentoEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador, type=string}, NumeroDocumentoEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador, type=string}, ConsecutivoNITEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador, type=string}}}, SedeAsociada={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada, type=object, properties={CodigoSede={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede, type=string}, CentroTrabajoAsociado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado, type=object, properties={InformacionCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}}, EmpleadosAsociadas={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas, type=object, properties={FechaFinNovedad={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}}}}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{Empleador={id=http://wso2jsonschema.org/Body/Empleador, type=object, properties={InformacionEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoDocumentoEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador, type=string}, NumeroDocumentoEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador, type=string}, ConsecutivoNITEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador, type=string}}}, SedeAsociada={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada, type=object, properties={CodigoSede={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede, type=string}, CentroTrabajoAsociado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado, type=object, properties={InformacionCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}}, EmpleadosAsociadas={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas, type=object, properties={FechaFinNovedad={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}}}}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Header" schemaDataType="STRING" level="2">
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="v1:NotificarTerminacionRelacionLaboralSATReq" schemaDataType="OBJECT" level="3">
+          <node name="Header" schemaDataType="OBJECT" level="4">
+            <node name="Canal" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/Canal"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="IdCorrelacionConsumidor" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/IdCorrelacionConsumidor"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="IdTransaccion" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/IdTransaccion"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.2/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="PeticionFecha" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/PeticionFecha"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.3/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="Usuario" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/Usuario"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.4/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="Body" schemaDataType="OBJECT" level="4">
+            <node name="Empleador" schemaDataType="OBJECT" level="5">
+              <node name="InformacionEmpleador" schemaDataType="OBJECT" level="6">
+                <node name="Identificacion" schemaDataType="OBJECT" level="7">
+                  <node name="TipoDocumentoEmpleador" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+                  </node>
+                  <node name="NumeroDocumentoEmpleador" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+                  </node>
+                  <node name="ConsecutivoNITEmpleador" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="SedeAsociada" schemaDataType="OBJECT" level="7">
+                  <node name="CodigoSede" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.0/@outNode/@outgoingLink.0"/>
+                  </node>
+                  <node name="CentroTrabajoAsociado" schemaDataType="OBJECT" level="8">
+                    <node name="InformacionCentroTrabajo" schemaDataType="OBJECT" level="9">
+                      <node name="CodigoCentroTrabajo" schemaDataType="STRING" level="10">
+                        <properties key="type" value="string"/>
+                        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo"/>
+                        <properties key="nullable" value="false"/>
+                        <outNode/>
+                        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.1/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+                      </node>
+                      <properties key="type" value="object"/>
+                      <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo"/>
+                      <properties key="nullable" value="false"/>
+                      <properties key="properties_id" value="{CodigoCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}"/>
+                      <outNode/>
+                      <inNode/>
+                    </node>
+                    <properties key="type" value="object"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <node name="EmpleadosAsociadas" schemaDataType="OBJECT" level="8">
+                    <node name="FechaFinNovedad" schemaDataType="STRING" level="9">
+                      <properties key="type" value="string"/>
+                      <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad"/>
+                      <properties key="nullable" value="false"/>
+                      <outNode/>
+                      <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.2/@node.0/@outNode/@outgoingLink.0"/>
+                    </node>
+                    <node name="Identificacion" schemaDataType="OBJECT" level="9">
+                      <node name="TipoDocumentoEmpleado" schemaDataType="STRING" level="10">
+                        <properties key="type" value="string"/>
+                        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado"/>
+                        <properties key="nullable" value="false"/>
+                        <outNode/>
+                        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.2/@node.1/@node.0/@outNode/@outgoingLink.0"/>
+                      </node>
+                      <node name="NumeroDocumentoEmpleado" schemaDataType="STRING" level="10">
+                        <properties key="type" value="string"/>
+                        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado"/>
+                        <properties key="nullable" value="false"/>
+                        <outNode/>
+                        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.2/@node.1/@node.1/@outNode/@outgoingLink.0"/>
+                      </node>
+                      <properties key="type" value="object"/>
+                      <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion"/>
+                      <properties key="nullable" value="false"/>
+                      <outNode/>
+                      <inNode/>
+                    </node>
+                    <node name="DatosBasicos" schemaDataType="OBJECT" level="9">
+                      <node name="PrimerNombreEmpleado" schemaDataType="STRING" level="10">
+                        <properties key="type" value="string"/>
+                        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado"/>
+                        <properties key="nullable" value="false"/>
+                        <outNode/>
+                        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.0/@outNode/@outgoingLink.0"/>
+                      </node>
+                      <node name="PrimerApellidoEmpleado" schemaDataType="STRING" level="10">
+                        <properties key="type" value="string"/>
+                        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado"/>
+                        <properties key="nullable" value="false"/>
+                        <outNode/>
+                        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.2/@node.2/@node.1/@outNode/@outgoingLink.0"/>
+                      </node>
+                      <properties key="type" value="object"/>
+                      <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos"/>
+                      <properties key="nullable" value="false"/>
+                      <properties key="properties_id" value="{TipoDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}"/>
+                      <properties key="properties_id" value="{PrimerNombreEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}"/>
+                      <outNode/>
+                      <inNode/>
+                    </node>
+                    <node name="TipoCotizante" schemaDataType="STRING" level="9">
+                      <properties key="type" value="string"/>
+                      <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante"/>
+                      <properties key="nullable" value="false"/>
+                      <outNode/>
+                      <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.2/@node.3/@outNode/@outgoingLink.0"/>
+                    </node>
+                    <node name="SubTipoCotizante" schemaDataType="STRING" level="9">
+                      <properties key="type" value="string"/>
+                      <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante"/>
+                      <properties key="nullable" value="false"/>
+                      <outNode/>
+                      <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.2/@node.4/@outNode/@outgoingLink.0"/>
+                    </node>
+                    <properties key="type" value="object"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas"/>
+                    <properties key="nullable" value="false"/>
+                    <properties key="properties_id" value="{InformacionCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}"/>
+                    <properties key="properties_id" value="{FechaFinNovedad={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="properties_id" value="{TipoDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador, type=string}, NumeroDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador, type=string}, ConsecutivoNITEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador, type=string}}"/>
+                  <properties key="properties_id" value="{CodigoSede={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede, type=string}, CentroTrabajoAsociado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado, type=object, properties={InformacionCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}}, EmpleadosAsociadas={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas, type=object, properties={FechaFinNovedad={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}}}"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador, type=string}, NumeroDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador, type=string}, ConsecutivoNITEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador, type=string}}}, SedeAsociada={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada, type=object, properties={CodigoSede={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede, type=string}, CentroTrabajoAsociado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado, type=object, properties={InformacionCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}}, EmpleadosAsociadas={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas, type=object, properties={FechaFinNovedad={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}}}}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{InformacionEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador, type=string}, NumeroDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador, type=string}, ConsecutivoNITEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador, type=string}}}, SedeAsociada={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada, type=object, properties={CodigoSede={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede, type=string}, CentroTrabajoAsociado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado, type=object, properties={InformacionCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}}, EmpleadosAsociadas={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas, type=object, properties={FechaFinNovedad={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}}}}}}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{Canal={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/Canal, type=string}, IdCorrelacionConsumidor={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/IdCorrelacionConsumidor, type=string}, IdTransaccion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/IdTransaccion, type=string}, PeticionFecha={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/PeticionFecha, type=string}, Usuario={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/Usuario, type=string}}"/>
+            <properties key="properties_id" value="{Empleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador, type=object, properties={InformacionEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador, type=string}, NumeroDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador, type=string}, ConsecutivoNITEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador, type=string}}}, SedeAsociada={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada, type=object, properties={CodigoSede={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede, type=string}, CentroTrabajoAsociado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado, type=object, properties={InformacionCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}}, EmpleadosAsociadas={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas, type=object, properties={FechaFinNovedad={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}}}}}}}}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="namespaces" value="{prefix=v1, url=http://AXAColpatria.Tarea.GestionARL.NotificarSAT.Esquemas/NotificarTerminacionRelacionLaboralSATReq/V1.0}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{Header={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header, type=object, properties={Canal={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/Canal, type=string}, IdCorrelacionConsumidor={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/IdCorrelacionConsumidor, type=string}, IdTransaccion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/IdTransaccion, type=string}, PeticionFecha={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/PeticionFecha, type=string}, Usuario={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/Usuario, type=string}}}, Body={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body, type=object, properties={Empleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador, type=object, properties={InformacionEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador, type=string}, NumeroDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador, type=string}, ConsecutivoNITEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador, type=string}}}, SedeAsociada={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada, type=object, properties={CodigoSede={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede, type=string}, CentroTrabajoAsociado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado, type=object, properties={InformacionCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}}, EmpleadosAsociadas={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas, type=object, properties={FechaFinNovedad={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}}}}}}}}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{v1:NotificarTerminacionRelacionLaboralSATReq={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq, type=object, properties={Header={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header, type=object, properties={Canal={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/Canal, type=string}, IdCorrelacionConsumidor={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/IdCorrelacionConsumidor, type=string}, IdTransaccion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/IdTransaccion, type=string}, PeticionFecha={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/PeticionFecha, type=string}, Usuario={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/Usuario, type=string}}}, Body={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body, type=object, properties={Empleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador, type=object, properties={InformacionEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador, type=string}, NumeroDocumentoEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador, type=string}, ConsecutivoNITEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador, type=string}}}, SedeAsociada={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada, type=object, properties={CodigoSede={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede, type=string}, CentroTrabajoAsociado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado, type=object, properties={InformacionCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo, type=object, properties={CodigoCentroTrabajo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo, type=string}}}}}, EmpleadosAsociadas={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas, type=object, properties={FechaFinNovedad={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion, type=object, properties={TipoDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado, type=string}, NumeroDocumentoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado, type=string}}}, DatosBasicos={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos, type=object, properties={PrimerNombreEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado, type=string}, PrimerApellidoEmpleado={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado, type=string}}}, TipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante, type=string}, SubTipoCotizante={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante, type=string}}}}}}}}}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=v1, url=http://AXAColpatria.Tarea.GestionARL.NotificarSAT.Esquemas/NotificarTerminacionRelacionLaboralSATReq/V1.0}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+  <operators xsi:type="datamapper:Properties" defaultOutputConnectors="1" operatorType="PROPERTIES" name="HeaderCanal">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+  <operators xsi:type="datamapper:Properties" defaultOutputConnectors="1" operatorType="PROPERTIES" name="HeaderIdCorrelacionConsumidor">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+  <operators xsi:type="datamapper:Properties" defaultOutputConnectors="1" operatorType="PROPERTIES" name="HeaderIdTransaccion">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+  <operators xsi:type="datamapper:Properties" defaultOutputConnectors="1" operatorType="PROPERTIES" name="HeaderPeticionFecha">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+  <operators xsi:type="datamapper:Properties" defaultOutputConnectors="1" operatorType="PROPERTIES" name="HeaderUsuario">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+</datamapper:DataMapperRoot>

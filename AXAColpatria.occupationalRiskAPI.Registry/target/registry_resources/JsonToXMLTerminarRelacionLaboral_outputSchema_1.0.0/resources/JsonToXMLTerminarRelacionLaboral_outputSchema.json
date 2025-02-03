@@ -1,0 +1,166 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "string"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "v1:NotificarTerminacionRelacionLaboralSATReq" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq",
+          "type" : "object",
+          "properties" : {
+            "Header" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header",
+              "type" : "object",
+              "properties" : {
+                "Canal" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/Canal",
+                  "type" : "string"
+                },
+                "IdCorrelacionConsumidor" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/IdCorrelacionConsumidor",
+                  "type" : "string"
+                },
+                "IdTransaccion" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/IdTransaccion",
+                  "type" : "string"
+                },
+                "PeticionFecha" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/PeticionFecha",
+                  "type" : "string"
+                },
+                "Usuario" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Header/Usuario",
+                  "type" : "string"
+                }
+              }
+            },
+            "Body" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body",
+              "type" : "object",
+              "properties" : {
+                "Empleador" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador",
+                  "type" : "object",
+                  "properties" : {
+                    "InformacionEmpleador" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador",
+                      "type" : "object",
+                      "properties" : {
+                        "Identificacion" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion",
+                          "type" : "object",
+                          "properties" : {
+                            "TipoDocumentoEmpleador" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador",
+                              "type" : "string"
+                            },
+                            "NumeroDocumentoEmpleador" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador",
+                              "type" : "string"
+                            },
+                            "ConsecutivoNITEmpleador" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador",
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "SedeAsociada" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada",
+                          "type" : "object",
+                          "properties" : {
+                            "CodigoSede" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede",
+                              "type" : "string"
+                            },
+                            "CentroTrabajoAsociado" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado",
+                              "type" : "object",
+                              "properties" : {
+                                "InformacionCentroTrabajo" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo",
+                                  "type" : "object",
+                                  "properties" : {
+                                    "CodigoCentroTrabajo" : {
+                                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo",
+                                      "type" : "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "EmpleadosAsociadas" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas",
+                              "type" : "object",
+                              "properties" : {
+                                "FechaFinNovedad" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad",
+                                  "type" : "string"
+                                },
+                                "Identificacion" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion",
+                                  "type" : "object",
+                                  "properties" : {
+                                    "TipoDocumentoEmpleado" : {
+                                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado",
+                                      "type" : "string"
+                                    },
+                                    "NumeroDocumentoEmpleado" : {
+                                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado",
+                                      "type" : "string"
+                                    }
+                                  }
+                                },
+                                "DatosBasicos" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos",
+                                  "type" : "object",
+                                  "properties" : {
+                                    "PrimerNombreEmpleado" : {
+                                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado",
+                                      "type" : "string"
+                                    },
+                                    "PrimerApellidoEmpleado" : {
+                                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado",
+                                      "type" : "string"
+                                    }
+                                  }
+                                },
+                                "TipoCotizante" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante",
+                                  "type" : "string"
+                                },
+                                "SubTipoCotizante" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTerminacionRelacionLaboralSATReq/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante",
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "v1",
+    "url" : "http://AXAColpatria.Tarea.GestionARL.NotificarSAT.Esquemas/NotificarTerminacionRelacionLaboralSATReq/V1.0"
+  } ]
+}

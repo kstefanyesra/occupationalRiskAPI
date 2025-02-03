@@ -1,0 +1,82 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Header =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Header.Canal = DM_PROPERTIES.DEFAULT['HeaderCanal'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Header.IdCorrelacionConsumidor = DM_PROPERTIES.DEFAULT['HeaderIdCorrelacionConsumidor'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Header.IdTransaccion = DM_PROPERTIES.DEFAULT['HeaderIdTransaccion'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Header.PeticionFecha = DM_PROPERTIES.DEFAULT['HeaderPeticionFecha'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Header.Usuario = DM_PROPERTIES.DEFAULT['HeaderUsuario'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.InformacionEmpleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.InformacionEmpleador.PersonaNatural =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.InformacionEmpleador.PersonaNatural.Identificacion =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.InformacionEmpleador.PersonaNatural.Identificacion._ELEMVAL = inputroot.Body.Empleador.InformacionEmpleador.PersonaNatural.Identificacion.ConsecutivoNIT;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.InformacionEmpleador.PersonaNatural.Identificacion.TipoIdentificacion = inputroot.Body.Empleador.InformacionEmpleador.PersonaNatural.Identificacion.TipoIdentificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.InformacionEmpleador.PersonaNatural.Identificacion.Identificacion = inputroot.Body.Empleador.InformacionEmpleador.PersonaNatural.Identificacion.Identificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.InformacionEmpleador.PersonaNatural.DatosBasicos =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.InformacionEmpleador.PersonaNatural.DatosBasicos.PrimerNombre = inputroot.Body.Empleador.InformacionEmpleador.PersonaNatural.DatosBasicos.PrimerNombre;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.InformacionEmpleador.PersonaNatural.DatosBasicos.PrimerApellido = inputroot.Body.Empleador.InformacionEmpleador.PersonaNatural.DatosBasicos.PrimerApellido;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada._ELEMVAL = inputroot.Body.Empleador.SedeAsociada.EsSedePrincipal;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.FechaNovedad = inputroot.Body.Empleador.SedeAsociada.FechaNovedad;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.CodigoSede = inputroot.Body.Empleador.SedeAsociada.CodigoSede;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.NombreSede = inputroot.Body.Empleador.SedeAsociada.NombreSede;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Ubicacion =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Ubicacion.Municipio =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Ubicacion.Municipio.Codigo = Number(inputroot.Body.Empleador.SedeAsociada.Ubicacion.Municipio.Codigo);
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Ubicacion.DireccionSede = inputroot.Body.Empleador.SedeAsociada.Ubicacion.DireccionSede;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Ubicacion.ZonaSede = inputroot.Body.Empleador.SedeAsociada.Ubicacion.ZonaSede;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Telefono = Number(inputroot.Body.Empleador.SedeAsociada.Telefono);
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Correo = inputroot.Body.Empleador.SedeAsociada.Correo;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Responsable =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Responsable.Identificacion =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Responsable.Identificacion.TipoIdentificacion = inputroot.Body.Empleador.SedeAsociada.Responsable.Identificacion.TipoIdentificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Responsable.Identificacion.Identificacion = Number(inputroot.Body.Empleador.SedeAsociada.Responsable.Identificacion.Identificacion);
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.Responsable.DatosBasicos =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.EmpleadorMision =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarNovedadSedesSATReq.Body.Empleador.SedeAsociada.EmpleadorMision.Identificacion =  {};
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

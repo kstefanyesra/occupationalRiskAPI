@@ -1,0 +1,121 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Body" : {
+      "id" : "http://wso2jsonschema.org/Body",
+      "type" : "object",
+      "properties" : {
+        "Empleador" : {
+          "id" : "http://wso2jsonschema.org/Body/Empleador",
+          "type" : "object",
+          "properties" : {
+            "DatosBasicos" : {
+              "id" : "http://wso2jsonschema.org/Body/Empleador/DatosBasicos",
+              "type" : "object",
+              "properties" : {
+                "Identificacion" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/DatosBasicos/Identificacion",
+                  "type" : "string"
+                },
+                "TipoDocumento" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/DatosBasicos/TipoDocumento",
+                  "type" : "string"
+                },
+                "ConsecutivoNIT" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/DatosBasicos/ConsecutivoNIT",
+                  "type" : "string"
+                }
+              }
+            },
+            "Sede" : {
+              "id" : "http://wso2jsonschema.org/Body/Empleador/Sede",
+              "type" : "array",
+              "items" : [ {
+                "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0",
+                "type" : "object",
+                "properties" : {
+                  "CodigoOrigen" : {
+                    "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CodigoOrigen",
+                    "type" : "string"
+                  },
+                  "CodigoDestino" : {
+                    "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CodigoDestino",
+                    "type" : "string"
+                  },
+                  "CentroTrabajo" : {
+                    "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo",
+                    "type" : "array",
+                    "items" : [ {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0",
+                      "type" : "object",
+                      "properties" : {
+                        "CodigoOrigen" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/CodigoOrigen",
+                          "type" : "string"
+                        },
+                        "CodigoDestino" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/CodigoDestino",
+                          "type" : "string"
+                        },
+                        "Empleado" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/Empleado",
+                          "type" : "object",
+                          "properties" : {
+                            "Identificacion" : {
+                              "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/Empleado/Identificacion",
+                              "type" : "object",
+                              "properties" : {
+                                "Identificacion" : {
+                                  "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/Empleado/Identificacion/Identificacion",
+                                  "type" : "string"
+                                },
+                                "TipoDocumento" : {
+                                  "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/Empleado/Identificacion/TipoDocumento",
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "DatosBasicos" : {
+                              "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/Empleado/DatosBasicos",
+                              "type" : "object",
+                              "properties" : {
+                                "PrimerNombre" : {
+                                  "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/Empleado/DatosBasicos/PrimerNombre",
+                                  "type" : "string"
+                                },
+                                "PrimerApellido" : {
+                                  "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/Empleado/DatosBasicos/PrimerApellido",
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "TipoCotizante" : {
+                              "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/Empleado/TipoCotizante",
+                              "type" : "string"
+                            },
+                            "SubCotizante" : {
+                              "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/Empleado/SubCotizante",
+                              "type" : "string"
+                            },
+                            "FechaInicioNovedad" : {
+                              "id" : "http://wso2jsonschema.org/Body/Empleador/Sede/0/CentroTrabajo/0/Empleado/FechaInicioNovedad",
+                              "type" : "string"
+                            }
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                }
+              } ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

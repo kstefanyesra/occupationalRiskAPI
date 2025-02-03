@@ -1,0 +1,53 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Body" : {
+      "id" : "http://wso2jsonschema.org/Body",
+      "type" : "object",
+      "properties" : {
+        "Empleador" : {
+          "id" : "http://wso2jsonschema.org/Body/Empleador",
+          "type" : "object",
+          "properties" : {
+            "InformacionEmpleador" : {
+              "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador",
+              "type" : "object",
+              "properties" : {
+                "Identificacion" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion",
+                  "type" : "object",
+                  "properties" : {
+                    "TipoDocumentoEmpresa" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpresa",
+                      "type" : "string"
+                    },
+                    "NumeroDocumentoEmpresa" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpresa",
+                      "type" : "string"
+                    },
+                    "ConsecutivoNITEmpresa" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpresa",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "FechaRetiroEmpresa" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/FechaRetiroEmpresa",
+                  "type" : "string"
+                },
+                "CausalRetiroEmpresa" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/CausalRetiroEmpresa",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

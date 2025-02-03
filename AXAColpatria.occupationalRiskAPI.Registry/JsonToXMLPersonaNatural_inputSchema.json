@@ -1,0 +1,181 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Body" : {
+      "id" : "http://wso2jsonschema.org/Body",
+      "type" : "object",
+      "properties" : {
+        "Empleador" : {
+          "id" : "http://wso2jsonschema.org/Body/Empleador",
+          "type" : "object",
+          "properties" : {
+            "InformacionEmpleador" : {
+              "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador",
+              "type" : "object",
+              "properties" : {
+                "PersonaNatural" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/PersonaNatural",
+                  "type" : "object",
+                  "properties" : {
+                    "Identificacion" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/PersonaNatural/Identificacion",
+                      "type" : "object",
+                      "properties" : {
+                        "TipoIdentificacion" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/PersonaNatural/Identificacion/TipoIdentificacion",
+                          "type" : "string"
+                        },
+                        "Identificacion" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/PersonaNatural/Identificacion/Identificacion",
+                          "type" : "string"
+                        },
+                        "ConsecutivoNIT" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/PersonaNatural/Identificacion/ConsecutivoNIT",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "DatosBasicos" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/PersonaNatural/DatosBasicos",
+                      "type" : "object",
+                      "properties" : {
+                        "PrimerNombre" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/PersonaNatural/DatosBasicos/PrimerNombre",
+                          "type" : "string"
+                        },
+                        "PrimerApellido" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/PersonaNatural/DatosBasicos/PrimerApellido",
+                          "type" : "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "SedeAsociada" : {
+              "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada",
+              "type" : "object",
+              "properties" : {
+                "FechaNovedad" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/FechaNovedad",
+                  "type" : "string"
+                },
+                "CodigoSede" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/CodigoSede",
+                  "type" : "string"
+                },
+                "NombreSede" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/NombreSede",
+                  "type" : "string"
+                },
+                "EsSedePrincipal" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/EsSedePrincipal",
+                  "type" : "string"
+                },
+                "Ubicacion" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Ubicacion",
+                  "type" : "object",
+                  "properties" : {
+                    "Municipio" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Ubicacion/Municipio",
+                      "type" : "object",
+                      "properties" : {
+                        "Codigo" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Ubicacion/Municipio/Codigo",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "DireccionSede" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Ubicacion/DireccionSede",
+                      "type" : "string"
+                    },
+                    "ZonaSede" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Ubicacion/ZonaSede",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "Telefono" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Telefono",
+                  "type" : "string"
+                },
+                "Correo" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Correo",
+                  "type" : "string"
+                },
+                "Responsable" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Responsable",
+                  "type" : "object",
+                  "properties" : {
+                    "Identificacion" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Responsable/Identificacion",
+                      "type" : "object",
+                      "properties" : {
+                        "TipoIdentificacion" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Responsable/Identificacion/TipoIdentificacion",
+                          "type" : "string"
+                        },
+                        "Identificacion" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Responsable/Identificacion/Identificacion",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "DatosBasicos" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Responsable/DatosBasicos",
+                      "type" : "object",
+                      "properties" : {
+                        "PrimerNombre" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Responsable/DatosBasicos/PrimerNombre",
+                          "type" : "string"
+                        },
+                        "PrimerApellido" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/Responsable/DatosBasicos/PrimerApellido",
+                          "type" : "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "TipoActualizacion" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/TipoActualizacion",
+                  "type" : "string"
+                },
+                "EmpleadorMision" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/EmpleadorMision",
+                  "type" : "object",
+                  "properties" : {
+                    "Identificacion" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/EmpleadorMision/Identificacion",
+                      "type" : "object",
+                      "properties" : {
+                        "TipoIdentificacion" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/EmpleadorMision/Identificacion/TipoIdentificacion",
+                          "type" : "string"
+                        },
+                        "Identificacion" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/EmpleadorMision/Identificacion/Identificacion",
+                          "type" : "string"
+                        },
+                        "ConsecutivoNIT" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/SedeAsociada/EmpleadorMision/Identificacion/ConsecutivoNIT",
+                          "type" : "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

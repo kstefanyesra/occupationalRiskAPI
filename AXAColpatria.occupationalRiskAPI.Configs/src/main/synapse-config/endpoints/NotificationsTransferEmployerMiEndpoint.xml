@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="NotificationsTransferEmployerMiEndpoint" xmlns="http://ws.apache.org/ns/synapse">
+    <address format="soap11" uri="https://tmms.axacolpatria.co:3189/services/NotifyTransferEmployerSATProxy">
+        <suspendOnFailure>
+            <initialDuration>-1</initialDuration>
+            <progressionFactor>1.0</progressionFactor>
+        </suspendOnFailure>
+        <markForSuspension>
+            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+        </markForSuspension>
+    </address>
+</endpoint>

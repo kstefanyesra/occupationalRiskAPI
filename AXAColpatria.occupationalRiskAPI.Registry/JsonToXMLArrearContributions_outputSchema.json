@@ -1,0 +1,114 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "string"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "v1:NotificarMoraAportesSATReq" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq",
+          "type" : "object",
+          "properties" : {
+            "Header" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header",
+              "type" : "object",
+              "properties" : {
+                "Canal" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/Canal",
+                  "type" : "string"
+                },
+                "IdCorrelacionConsumidor" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/IdCorrelacionConsumidor",
+                  "type" : "string"
+                },
+                "IdTransaccion" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/IdTransaccion",
+                  "type" : "string"
+                },
+                "PeticionFecha" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/PeticionFecha",
+                  "type" : "string"
+                },
+                "Usuario" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/Usuario",
+                  "type" : "string"
+                }
+              }
+            },
+            "Body" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body",
+              "type" : "object",
+              "properties" : {
+                "Empleador" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador",
+                  "type" : "object",
+                  "properties" : {
+                    "InformacionEmpleador" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador",
+                      "type" : "object",
+                      "properties" : {
+                        "Identificacion" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion",
+                          "type" : "object",
+                          "properties" : {
+                            "TipoIdentificacion" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion",
+                              "type" : "string"
+                            },
+                            "Identificacion" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion",
+                              "type" : "string"
+                            },
+                            "ConsecutivoNIT" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT",
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "AcuerdoPago" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago",
+                          "type" : "object",
+                          "properties" : {
+                            "Mora" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora",
+                              "type" : "object",
+                              "properties" : {
+                                "Periodo" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo",
+                                  "type" : "string"
+                                },
+                                "TipoReporte" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte",
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "v1",
+    "url" : "http://AXAColpatria.Tarea.GestionARL.NotificarSAT.Esquemas/NotificarMoraAportesSATReq/V1.0"
+  } ]
+}

@@ -1,0 +1,98 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "string"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "v1:NotificarTrasladoEmpleadorSATReq" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq",
+          "type" : "object",
+          "properties" : {
+            "Header" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Header",
+              "type" : "object",
+              "properties" : {
+                "Canal" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Header/Canal",
+                  "type" : "string"
+                },
+                "IdCorrelacionConsumidor" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Header/IdCorrelacionConsumidor",
+                  "type" : "string"
+                },
+                "IdTransaccion" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Header/IdTransaccion",
+                  "type" : "string"
+                },
+                "PeticionFecha" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Header/PeticionFecha",
+                  "type" : "string"
+                },
+                "Usuario" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Header/Usuario",
+                  "type" : "string"
+                }
+              }
+            },
+            "Body" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Body",
+              "type" : "object",
+              "properties" : {
+                "Empleador" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Body/Empleador",
+                  "type" : "object",
+                  "properties" : {
+                    "InformacionEmpleador" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Body/Empleador/InformacionEmpleador",
+                      "type" : "object",
+                      "properties" : {
+                        "Identificaicon" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Body/Empleador/InformacionEmpleador/Identificaicon",
+                          "type" : "object",
+                          "properties" : {
+                            "TipoIdentificacion" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Body/Empleador/InformacionEmpleador/Identificaicon/TipoIdentificacion",
+                              "type" : "string"
+                            },
+                            "Identificacion" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Body/Empleador/InformacionEmpleador/Identificaicon/Identificacion",
+                              "type" : "string"
+                            },
+                            "ConsecutivoNIT" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Body/Empleador/InformacionEmpleador/Identificaicon/ConsecutivoNIT",
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "FechaNovedad" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarTrasladoEmpleadorSATReq/Body/Empleador/InformacionEmpleador/FechaNovedad",
+                          "type" : "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "v1",
+    "url" : "http://AXAColpatria.Tarea.GestionARL.NotificarSAT.Esquemas/NotificarTrasladoEmpleadorSATReq/V1.0"
+  } ]
+}

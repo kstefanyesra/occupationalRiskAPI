@@ -1,0 +1,80 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+var count_i_Sede_d6e73089_e605_4462_aa81_d915509340ff = 0;
+var count_i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d_i_Sede_d6e73089_e605_4462_aa81_d915509340ff = 0;
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Header =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Header.Canal = DM_PROPERTIES.DEFAULT['HeaderCanal'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Header.IdCorrelacionConsumidor = DM_PROPERTIES.DEFAULT['HeaderIdCorrelacionConsumidor'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Header.IdTransaccion = DM_PROPERTIES.DEFAULT['HeaderIdTransaccion'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Header.PeticionFecha = DM_PROPERTIES.DEFAULT['HeaderPeticionFecha'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Header.Usuario = DM_PROPERTIES.DEFAULT['HeaderUsuario'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.DatosBasicos =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.DatosBasicos.Identificacion = inputroot.Body.Empleador.DatosBasicos.Identificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.DatosBasicos.TipoDocumento = inputroot.Body.Empleador.DatosBasicos.TipoDocumento;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.DatosBasicos.ConsecutivoNIT = inputroot.Body.Empleador.DatosBasicos.ConsecutivoNIT;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.Empleado =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.Empleado.Identificacion =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.Empleado.DatosBasicos =  {};
+
+for(i_Sede_d6e73089_e605_4462_aa81_d915509340ff in inputroot.Body.Empleador.Sede){
+var count_i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d = 0;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CodigoOrigen = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CodigoOrigen;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CodigoDestino = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CodigoDestino;
+
+for(i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d in inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CentroTrabajo){
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.CodigoOrigen = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CentroTrabajo[i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d].CodigoOrigen;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.CodigoDestino = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CentroTrabajo[i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d].CodigoDestino;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.Empleado.Identificacion.Identificacion = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CentroTrabajo[i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d].Empleado.Identificacion.Identificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.Empleado.Identificacion.TipoDocumento = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CentroTrabajo[i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d].Empleado.Identificacion.TipoDocumento;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.Empleado.DatosBasicos.PrimerNombre = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CentroTrabajo[i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d].Empleado.DatosBasicos.PrimerNombre;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.Empleado.DatosBasicos.PrimerApellido = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CentroTrabajo[i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d].Empleado.DatosBasicos.PrimerApellido;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.Empleado.TipoCotizante = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CentroTrabajo[i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d].Empleado.TipoCotizante;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.Empleado.SubCotizante = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CentroTrabajo[i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d].Empleado.SubCotizante;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarVariacionCentroTrabajoSATReq.Body.Empleador.Sede.CentroTrabajo.Empleado.FechaInicioNovedad = inputroot.Body.Empleador.Sede[i_Sede_d6e73089_e605_4462_aa81_d915509340ff].CentroTrabajo[i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d].Empleado.FechaInicioNovedad;
+
+count_i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d++;
+count_i_CentroTrabajo_bcc99893_06d0_472e_903e_4405f82f269d_i_Sede_d6e73089_e605_4462_aa81_d915509340ff++;
+}
+
+count_i_Sede_d6e73089_e605_4462_aa81_d915509340ff++;
+}
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

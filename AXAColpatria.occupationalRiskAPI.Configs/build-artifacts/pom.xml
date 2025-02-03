@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.axa</groupId>
+    <artifactId>AXAColpatria.occupationalRiskAPI.Configs</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <groupId>com.axa</groupId>
+  <artifactId>AXAColpatria.occupationalRiskAPI.Configs_module</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>AXAColpatria.occupationalRiskAPI.Configs_module</name>
+  <description>AXAColpatria.occupationalRiskAPI.Configs_module</description>
+  <modules>
+    <module>api/occupationalRiskAPI</module>
+    <module>metadata/occupationalRiskAPI_swagger</module>
+    <module>metadata/occupationalRiskAPI_metadata</module>
+    <module>sequences/NotificationsAffiliationsInSequence</module>
+    <module>sequences/NotificationsArrearContributionsInSequence</module>
+    <module>sequences/NotificationsDefinitiveWithdrawalInSequence</module>
+    <module>sequences/NotificationsNoveltyHeadquartersInSequence</module>
+    <module>sequences/NotificationsNoveltyWorkplacesInSequence</module>
+    <module>sequences/NotificationsReclassificationWorkplacesInSequence</module>
+    <module>sequences/NotificationsStartEmploymentRelationshipInSequence</module>
+    <module>sequences/NotificationsTerminationEmploymentRelationshipInSequence</module>
+    <module>sequences/NotificationsTransferAffiliationsInSequence</module>
+    <module>sequences/NotificationsTransferEmployerInSequence</module>
+    <module>sequences/NotificationsVariationWorkplacesInSequence</module>
+    <module>sequences/occupationalRiskAPIFaultSequence</module>
+    <module>endpoints/NotificationsDefinitiveWithdrawalMiEndpoint</module>
+    <module>endpoints/NotificationsReclassificationWorkplacesMiEndpoint</module>
+    <module>endpoints/NotificationsArrearContributionsMiEndpoint</module>
+    <module>endpoints/NotificationsAffiliationsMiEndpoint</module>
+    <module>endpoints/NotificationsStartEmploymentRelationshipMiEndpoint</module>
+    <module>endpoints/NotificationsTerminationEmploymentRelationshipMiEndpoint</module>
+    <module>endpoints/NotificationsTransferAffiliationsMiEndpoint</module>
+    <module>endpoints/NotificationsTransferEmployerMiEndpoint</module>
+    <module>endpoints/NotificationsVariationWorkplacesMiEndpoint</module>
+  </modules>
+</project>

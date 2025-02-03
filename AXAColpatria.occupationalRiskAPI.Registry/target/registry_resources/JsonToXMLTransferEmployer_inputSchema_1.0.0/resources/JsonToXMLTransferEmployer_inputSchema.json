@@ -1,0 +1,49 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Body" : {
+      "id" : "http://wso2jsonschema.org/Body",
+      "type" : "object",
+      "properties" : {
+        "Empleador" : {
+          "id" : "http://wso2jsonschema.org/Body/Empleador",
+          "type" : "object",
+          "properties" : {
+            "InformacionEmpleador" : {
+              "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador",
+              "type" : "object",
+              "properties" : {
+                "Identificaicon" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificaicon",
+                  "type" : "object",
+                  "properties" : {
+                    "TipoIdentificacion" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificaicon/TipoIdentificacion",
+                      "type" : "string"
+                    },
+                    "Identificacion" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificaicon/Identificacion",
+                      "type" : "string"
+                    },
+                    "ConsecutivoNIT" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificaicon/ConsecutivoNIT",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "FechaNovedad" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/FechaNovedad",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

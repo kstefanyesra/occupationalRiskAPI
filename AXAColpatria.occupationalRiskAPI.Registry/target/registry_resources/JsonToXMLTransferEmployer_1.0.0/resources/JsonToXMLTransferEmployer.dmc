@@ -1,0 +1,38 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Header =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Header.Canal = DM_PROPERTIES.DEFAULT['HeaderCanal'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Header.IdCorrelacionConsumidor = DM_PROPERTIES.DEFAULT['HeaderIdCorrelacionConsumidor'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Header.IdTransaccion = DM_PROPERTIES.DEFAULT['HeaderIdTransaccion'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Header.PeticionFecha = DM_PROPERTIES.DEFAULT['HeaderPeticionFecha'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Header.Usuario = DM_PROPERTIES.DEFAULT['HeaderUsuario'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Body.Empleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Body.Empleador.InformacionEmpleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Body.Empleador.InformacionEmpleador.Identificaicon =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Body.Empleador.InformacionEmpleador.Identificaicon.TipoIdentificacion = inputroot.Body.Empleador.InformacionEmpleador.Identificaicon.TipoIdentificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Body.Empleador.InformacionEmpleador.Identificaicon.Identificacion = inputroot.Body.Empleador.InformacionEmpleador.Identificaicon.Identificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Body.Empleador.InformacionEmpleador.Identificaicon.ConsecutivoNIT = inputroot.Body.Empleador.InformacionEmpleador.Identificaicon.ConsecutivoNIT;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarTrasladoEmpleadorSATReq.Body.Empleador.InformacionEmpleador.FechaNovedad = inputroot.Body.Empleador.InformacionEmpleador.FechaNovedad;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="occupationalRiskAPI" groupId="com.axa.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/occupationalRiskAPI.xml</file>
+    </artifact>
+    <artifact name="occupationalRiskAPI_swagger" groupId="com.axa.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/occupationalRiskAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="occupationalRiskAPI_metadata" groupId="com.axa.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/occupationalRiskAPI_metadata.yaml</file>
+    </artifact>
+    <artifact name="NotificationsAffiliationsInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsAffiliationsInSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsArrearContributionsInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsArrearContributionsInSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsDefinitiveWithdrawalInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsDefinitiveWithdrawalInSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsNoveltyHeadquartersInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsNoveltyHeadquartersInSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsNoveltyWorkplacesInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsNoveltyWorkplacesInSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsReclassificationWorkplacesInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsReclassificationWorkplacesInSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsStartEmploymentRelationshipInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsStartEmploymentRelationshipInSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsTerminationEmploymentRelationshipInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsTerminationEmploymentRelationshipInSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsTransferAffiliationsInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsTransferAffiliationsInSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsTransferEmployerInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsTransferEmployerInSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsVariationWorkplacesInSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/NotificationsVariationWorkplacesInSequence.xml</file>
+    </artifact>
+    <artifact name="occupationalRiskAPIFaultSequence" groupId="com.axa.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/occupationalRiskAPIFaultSequence.xml</file>
+    </artifact>
+    <artifact name="NotificationsDefinitiveWithdrawalMiEndpoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NotificationsDefinitiveWithdrawalMiEndpoint.xml</file>
+    </artifact>
+    <artifact name="NotificationsReclassificationWorkplacesMiEndpoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NotificationsReclassificationWorkplacesMiEndpoint.xml</file>
+    </artifact>
+    <artifact name="NotificationsArrearContributionsMiEndpoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NotificationsArrearContributionsMiEndpoint.xml</file>
+    </artifact>
+    <artifact name="NotificationsAffiliationsMiEndpoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NotificationsAffiliationsMiEndpoint.xml</file>
+    </artifact>
+    <artifact name="NotificationsNoveltyWorkplacesMiEndpoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NotificationsNoveltyWorkplacesMiEndpoint.xml</file>
+    </artifact>
+    <artifact name="NotificationsStartEmploymentRelationshipMiEndpoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NotificationsStartEmploymentRelationshipMiEndpoint.xml</file>
+    </artifact>
+    <artifact name="NotificationsTerminationEmploymentRelationshipMiEndpoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NotificationsTerminationEmploymentRelationshipMiEndpoint.xml</file>
+    </artifact>
+    <artifact name="NotificationsTransferAffiliationsMiEndpoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NotificationsTransferAffiliationsMiEndpoint.xml</file>
+    </artifact>
+    <artifact name="NotificationsTransferEmployerMiEndpoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NotificationsTransferEmployerMiEndpoint.xml</file>
+    </artifact>
+    <artifact name="NotificationsVariationWorkplacesMiEndpoint" groupId="com.axa.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/NotificationsVariationWorkplacesMiEndpoint.xml</file>
+    </artifact>
+</artifacts>

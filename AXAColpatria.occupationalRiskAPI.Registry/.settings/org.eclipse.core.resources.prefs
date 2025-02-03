@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding/JSONToXMLInicioRelacionLaboral.datamapper=UTF-8
+encoding/JSONToXMLInicioRelacionLaboral.datamapper_diagram=UTF-8
+encoding/JsonToXMLAffiliation.datamapper=UTF-8
+encoding/JsonToXMLAffiliation.datamapper_diagram=UTF-8
+encoding/JsonToXMLArrearContributions.datamapper=UTF-8
+encoding/JsonToXMLArrearContributions.datamapper_diagram=UTF-8
+encoding/JsonToXMLNotificarCentroTrabajo.datamapper=UTF-8
+encoding/JsonToXMLNotificarCentroTrabajo.datamapper_diagram=UTF-8
+encoding/JsonToXMLNotificarRetiroDefinitivoSATReq.datamapper=UTF-8
+encoding/JsonToXMLNotificarRetiroDefinitivoSATReq.datamapper_diagram=UTF-8
+encoding/JsonToXMLTerminarRelacionLaboral.datamapper=UTF-8
+encoding/JsonToXMLTerminarRelacionLaboral.datamapper_diagram=UTF-8
+encoding/JsonToXMLTransferEmployer.datamapper=UTF-8
+encoding/JsonToXMLTransferEmployer.datamapper_diagram=UTF-8

@@ -1,0 +1,49 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Header =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Header.Canal = DM_PROPERTIES.DEFAULT['HeaderCanal'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Header.IdCorrelacionConsumidor = DM_PROPERTIES.DEFAULT['HeaderIdCorrelacionConsumidor'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Header.IdTransaccion = DM_PROPERTIES.DEFAULT['HeaderIdTransaccion'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Header.PeticionFecha = DM_PROPERTIES.DEFAULT['HeaderPeticionFecha'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Header.Usuario = DM_PROPERTIES.DEFAULT['HeaderUsuario'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body.Empleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body.Empleador.InformacionEmpleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body.Empleador.InformacionEmpleador.Identificacion =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body.Empleador.InformacionEmpleador.Identificacion.TipoIdentificacion = inputroot.Body.Empleador.InformacionEmpleador.Identificacion.TipoIdentificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body.Empleador.InformacionEmpleador.Identificacion.Identificacion = inputroot.Body.Empleador.InformacionEmpleador.Identificacion.Identificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body.Empleador.InformacionEmpleador.Identificacion.ConsecutivoNIT = inputroot.Body.Empleador.InformacionEmpleador.Identificacion.ConsecutivoNIT;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body.Empleador.InformacionEmpleador.AcuerdoPago =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body.Empleador.InformacionEmpleador.AcuerdoPago.Mora =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body.Empleador.InformacionEmpleador.AcuerdoPago.Mora.Periodo = inputroot.Body.Empleador.InformacionEmpleador.AcuerdoPago.Mora.Periodo;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarMoraAportesSATReq.Body.Empleador.InformacionEmpleador.AcuerdoPago.Mora.TipoReporte = inputroot.Body.Empleador.InformacionEmpleador.AcuerdoPago.Mora.TipoReporte;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Header =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Header.Canal = DM_PROPERTIES.DEFAULT['HeaderCanal'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Header.IdCorrelacionConsumidor = DM_PROPERTIES.DEFAULT['HeaderIdCorrelacionConsumidor'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Header.IdTransaccion = DM_PROPERTIES.DEFAULT['HeaderIdTransaccion'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Header.PeticionFecha = DM_PROPERTIES.DEFAULT['HeaderPeticionFecha'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Header.Usuario = DM_PROPERTIES.DEFAULT['HeaderUsuario'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Body.Empleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Body.Empleador.InformacionEmpleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Body.Empleador.InformacionEmpleador.Identificacion =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Body.Empleador.InformacionEmpleador.Identificacion.TipoDocumentoEmpresa = inputroot.Body.Empleador.InformacionEmpleador.Identificacion.TipoDocumentoEmpresa;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Body.Empleador.InformacionEmpleador.Identificacion.NumeroDocumentoEmpresa = inputroot.Body.Empleador.InformacionEmpleador.Identificacion.NumeroDocumentoEmpresa;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Body.Empleador.InformacionEmpleador.Identificacion.ConsecutivoNITEmpresa = inputroot.Body.Empleador.InformacionEmpleador.Identificacion.ConsecutivoNITEmpresa;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Body.Empleador.InformacionEmpleador.FechaRetiroEmpresa = inputroot.Body.Empleador.InformacionEmpleador.FechaRetiroEmpresa;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetiroDefinitivoSATReq.Body.Empleador.InformacionEmpleador.CausalRetiroEmpresa = inputroot.Body.Empleador.InformacionEmpleador.CausalRetiroEmpresa;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

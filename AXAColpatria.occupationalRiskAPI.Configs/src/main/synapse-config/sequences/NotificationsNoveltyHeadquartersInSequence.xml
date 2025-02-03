@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="NotificationsNoveltyHeadquartersInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <propertyGroup>
+        <property expression="$trp:Canal" name="HeaderCanal" scope="default" type="STRING"/>
+        <property expression="$trp:IdCorrelacionConsumidor" name="HeaderIdCorrelacionConsumidor" scope="default" type="STRING"/>
+        <property expression="$trp:IdTransaccion" name="HeaderIdTransaccion" scope="default" type="STRING"/>
+        <property expression="$trp:PeticionFecha" name="HeaderPeticionFecha" scope="default" type="STRING"/>
+        <property expression="$trp:Usuario" name="HeaderUsuario" scope="default" type="STRING"/>
+        <property expression="json-eval($.Body.Empleador.InformacionEmpleador.PersonaJuridica)" name="PJvalue" scope="default" type="STRING"/>
+        <property expression="json-eval($.Body.Empleador.InformacionEmpleador.PersonaNatural)" name="PNvalue" scope="default" type="STRING"/>
+    </propertyGroup>
+    <log>
+        <property expression="fn:concat($ctx:PNvalue, '-', $ctx:PJvalue)" name="EntityType"/>
+        <property expression="$ctx:Canal" name="Canal"/>
+    </log>
+    <property expression="fn:concat($ctx:PNvalue, '-', $ctx:PJvalue)" name="EntityType" scope="default" type="STRING"/>
+    <switch source="$ctx:EntityType">
+        <case regex=".+-">
+            <log level="full">
+                <property name="EntityTypeDetected" value="PersonaNatural"/>
+                <property expression="$ctx:PNvalue" name="PNvalue"/>
+            </log>
+            <datamapper config="gov:datamapper/JsonToXMLPersonaNatural.dmc" inputSchema="gov:datamapper/JsonToXMLPersonaNatural_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/JsonToXMLPersonaNatural_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/JsonToXMLPersonaNatural_xsltStyleSheet.xml"/>
+        </case>
+        <case regex="-.+">
+            <log level="full">
+                <property name="EntityTypeDetected" value="PersonaJuridica"/>
+                <property expression="$ctx:PJvalue" name="PJvalue"/>
+            </log>
+            <datamapper config="gov:datamapper/JsonToXMLPersonaJuridica.dmc" inputSchema="gov:datamapper/JsonToXMLPersonaJuridica_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/JsonToXMLPersonaJuridica_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/JsonToXMLPersonaJuridica_xsltStyleSheet.xml"/>
+        </case>
+        <default>
+            <log level="full">
+                <property name="EntityTypeDetected" value="ERROR_ESTRUCTURA"/>
+            </log>
+        </default>
+    </switch>
+    <respond/>
+</sequence>

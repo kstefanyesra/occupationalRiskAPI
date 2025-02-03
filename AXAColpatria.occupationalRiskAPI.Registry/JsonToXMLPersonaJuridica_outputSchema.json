@@ -1,0 +1,226 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "string"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "v1:NotificarNovedadSedesSATReq" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq",
+          "type" : "object",
+          "properties" : {
+            "Header" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Header",
+              "type" : "object",
+              "properties" : {
+                "Canal" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Header/Canal",
+                  "type" : "string"
+                },
+                "IdCorrelacionConsumidor" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Header/IdCorrelacionConsumidor",
+                  "type" : "string"
+                },
+                "IdTransaccion" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Header/IdTransaccion",
+                  "type" : "string"
+                },
+                "PeticionFecha" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Header/PeticionFecha",
+                  "type" : "string"
+                },
+                "Usuario" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Header/Usuario",
+                  "type" : "string"
+                }
+              }
+            },
+            "Body" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body",
+              "type" : "object",
+              "properties" : {
+                "Empleador" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador",
+                  "type" : "object",
+                  "properties" : {
+                    "InformacionEmpleador" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/InformacionEmpleador",
+                      "type" : "object",
+                      "properties" : {
+                        "PersonaJuridica" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/InformacionEmpleador/PersonaJuridica",
+                          "type" : "object",
+                          "properties" : {
+                            "Identificacion" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/InformacionEmpleador/PersonaJuridica/Identificacion",
+                              "type" : "object",
+                              "properties" : {
+                                "TipoIdentificacion" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/InformacionEmpleador/PersonaJuridica/Identificacion/TipoIdentificacion",
+                                  "type" : "string"
+                                },
+                                "Identificacion" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/InformacionEmpleador/PersonaJuridica/Identificacion/Identificacion",
+                                  "type" : "string"
+                                },
+                                "ConsecutivoNIT" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/InformacionEmpleador/PersonaJuridica/Identificacion/ConsecutivoNIT",
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "DatosBasicos" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/InformacionEmpleador/PersonaJuridica/DatosBasicos",
+                              "type" : "object",
+                              "properties" : {
+                                "RazonSocial" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/InformacionEmpleador/PersonaJuridica/DatosBasicos/RazonSocial",
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "SedeAsociada" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada",
+                      "type" : "object",
+                      "properties" : {
+                        "FechaNovedad" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/FechaNovedad",
+                          "type" : "string"
+                        },
+                        "CodigoSede" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/CodigoSede",
+                          "type" : "string"
+                        },
+                        "NombreSede" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/NombreSede",
+                          "type" : "string"
+                        },
+                        "EsSedePrincipal" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/EsSedePrincipal",
+                          "type" : "string"
+                        },
+                        "Ubicacion" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Ubicacion",
+                          "type" : "object",
+                          "properties" : {
+                            "Municipio" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Ubicacion/Municipio",
+                              "type" : "object",
+                              "properties" : {
+                                "Codigo" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Ubicacion/Municipio/Codigo",
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "DireccionSede" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Ubicacion/DireccionSede",
+                              "type" : "string"
+                            },
+                            "ZonaSede" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Ubicacion/ZonaSede",
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "Telefono" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Telefono",
+                          "type" : "string"
+                        },
+                        "Correo" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Correo",
+                          "type" : "string"
+                        },
+                        "Responsable" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Responsable",
+                          "type" : "object",
+                          "properties" : {
+                            "Identificacion" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Responsable/Identificacion",
+                              "type" : "object",
+                              "properties" : {
+                                "TipoIdentificacion" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Responsable/Identificacion/TipoIdentificacion",
+                                  "type" : "string"
+                                },
+                                "Identificacion" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Responsable/Identificacion/Identificacion",
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "DatosBasicos" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Responsable/DatosBasicos",
+                              "type" : "object",
+                              "properties" : {
+                                "PrimerNombre" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Responsable/DatosBasicos/PrimerNombre",
+                                  "type" : "string"
+                                },
+                                "PrimerApellido" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/Responsable/DatosBasicos/PrimerApellido",
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "TipoActualizacion" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/TipoActualizacion",
+                          "type" : "string"
+                        },
+                        "EmpleadorMision" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/EmpleadorMision",
+                          "type" : "object",
+                          "properties" : {
+                            "Identificacion" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/EmpleadorMision/Identificacion",
+                              "type" : "object",
+                              "properties" : {
+                                "TipoIdentificacion" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/EmpleadorMision/Identificacion/TipoIdentificacion",
+                                  "type" : "string"
+                                },
+                                "Identificacion" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/EmpleadorMision/Identificacion/Identificacion",
+                                  "type" : "string"
+                                },
+                                "ConsecutivoNIT" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarNovedadSedesSATReq/Body/Empleador/SedeAsociada/EmpleadorMision/Identificacion/ConsecutivoNIT",
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "v1",
+    "url" : "http://AXAColpatria.Tarea.GestionARL.NotificarSAT.Esquemas/NotificarNovedadSedesSATReq/V1.0"
+  } ]
+}

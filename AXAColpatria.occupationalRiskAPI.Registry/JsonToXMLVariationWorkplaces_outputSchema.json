@@ -1,0 +1,162 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "soapenv:Envelope",
+  "type" : "object",
+  "properties" : {
+    "soapenv:Header" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Header",
+      "type" : "string"
+    },
+    "soapenv:Body" : {
+      "id" : "http://wso2jsonschema.org/soapenv:Body",
+      "type" : "object",
+      "properties" : {
+        "v1:NotificarVariacionCentroTrabajoSATReq" : {
+          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq",
+          "type" : "object",
+          "properties" : {
+            "Header" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Header",
+              "type" : "object",
+              "properties" : {
+                "Canal" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Header/Canal",
+                  "type" : "string"
+                },
+                "IdCorrelacionConsumidor" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Header/IdCorrelacionConsumidor",
+                  "type" : "string"
+                },
+                "IdTransaccion" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Header/IdTransaccion",
+                  "type" : "string"
+                },
+                "PeticionFecha" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Header/PeticionFecha",
+                  "type" : "string"
+                },
+                "Usuario" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Header/Usuario",
+                  "type" : "string"
+                }
+              }
+            },
+            "Body" : {
+              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body",
+              "type" : "object",
+              "properties" : {
+                "Empleador" : {
+                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador",
+                  "type" : "object",
+                  "properties" : {
+                    "DatosBasicos" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/DatosBasicos",
+                      "type" : "object",
+                      "properties" : {
+                        "Identificacion" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/DatosBasicos/Identificacion",
+                          "type" : "string"
+                        },
+                        "TipoDocumento" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/DatosBasicos/TipoDocumento",
+                          "type" : "string"
+                        },
+                        "ConsecutivoNIT" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/DatosBasicos/ConsecutivoNIT",
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "Sede" : {
+                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede",
+                      "type" : "object",
+                      "properties" : {
+                        "CodigoOrigen" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CodigoOrigen",
+                          "type" : "string"
+                        },
+                        "CodigoDestino" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CodigoDestino",
+                          "type" : "string"
+                        },
+                        "CentroTrabajo" : {
+                          "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo",
+                          "type" : "object",
+                          "properties" : {
+                            "CodigoOrigen" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/CodigoOrigen",
+                              "type" : "string"
+                            },
+                            "CodigoDestino" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/CodigoDestino",
+                              "type" : "string"
+                            },
+                            "Empleado" : {
+                              "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/Empleado",
+                              "type" : "object",
+                              "properties" : {
+                                "Identificacion" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/Empleado/Identificacion",
+                                  "type" : "object",
+                                  "properties" : {
+                                    "Identificacion" : {
+                                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/Empleado/Identificacion/Identificacion",
+                                      "type" : "string"
+                                    },
+                                    "TipoDocumento" : {
+                                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/Empleado/Identificacion/TipoDocumento",
+                                      "type" : "string"
+                                    }
+                                  }
+                                },
+                                "DatosBasicos" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/Empleado/DatosBasicos",
+                                  "type" : "object",
+                                  "properties" : {
+                                    "PrimerNombre" : {
+                                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/Empleado/DatosBasicos/PrimerNombre",
+                                      "type" : "string"
+                                    },
+                                    "PrimerApellido" : {
+                                      "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/Empleado/DatosBasicos/PrimerApellido",
+                                      "type" : "string"
+                                    }
+                                  }
+                                },
+                                "TipoCotizante" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/Empleado/TipoCotizante",
+                                  "type" : "string"
+                                },
+                                "SubCotizante" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/Empleado/SubCotizante",
+                                  "type" : "string"
+                                },
+                                "FechaInicioNovedad" : {
+                                  "id" : "http://wso2jsonschema.org/soapenv:Body/v1:NotificarVariacionCentroTrabajoSATReq/Body/Empleador/Sede/CentroTrabajo/Empleado/FechaInicioNovedad",
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "soapenv",
+    "url" : "http://schemas.xmlsoap.org/soap/envelope/"
+  }, {
+    "prefix" : "v1",
+    "url" : "http://AXAColpatria.Tarea.GestionARL.NotificarSAT.Esquemas/NotificarVariacionCentroTrabajoSATReq/V1.0"
+  } ]
+}

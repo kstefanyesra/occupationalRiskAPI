@@ -1,0 +1,42 @@
+map_S_root_S_Envelope = function(){ 
+var outputsoapenv_Envelope={};
+
+outputsoapenv_Envelope =  {};
+outputsoapenv_Envelope.soapenv_Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Header =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Header.Canal = DM_PROPERTIES.DEFAULT['HeaderCanal'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Header.IdCorrelacionConsumidor = DM_PROPERTIES.DEFAULT['HeaderIdCorrelacionConsumidor'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Header.IdTransaccion = DM_PROPERTIES.DEFAULT['HeaderIdTransaccion'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Header.PeticionFecha = DM_PROPERTIES.DEFAULT['HeaderPeticionFecha'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Header.Usuario = DM_PROPERTIES.DEFAULT['HeaderUsuario'];
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Body =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Body.Empleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Body.Empleador.InformacionEmpleador =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Body.Empleador.InformacionEmpleador.Identificacion =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Body.Empleador.InformacionEmpleador.Identificacion.TipoIdentificacion = inputroot.Body.Empleador.InformacionEmpleador.Identificacion.TipoIdentificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Body.Empleador.InformacionEmpleador.Identificacion.Identificacion = inputroot.Body.Empleador.InformacionEmpleador.Identificacion.Identificacion;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Body.Empleador.InformacionEmpleador.Identificacion.ConsecutivoNIT = inputroot.Body.Empleador.InformacionEmpleador.Identificacion.ConsecutivoNIT;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Body.Empleador.InformacionEmpleador.FechaNovedad = inputroot.Body.Empleador.InformacionEmpleador.FechaNovedad;
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Body.Empleador.InformacionRetracto =  {};
+outputsoapenv_Envelope.soapenv_Body.v1_NotificarRetractoTrasladoAfiliacionSATReq.Body.Empleador.InformacionRetracto.TipoRetracto = inputroot.Body.Empleador.InformacionRetracto.TipoRetracto;
+return outputsoapenv_Envelope;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

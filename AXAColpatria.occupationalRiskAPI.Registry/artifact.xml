@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="JsonToXMLArrearContributions" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLArrearContributions.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLArrearContributions_inputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLArrearContributions_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLArrearContributions_outputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLArrearContributions_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLArrearContributions_xsltStyleSheet" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLArrearContributions_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLNotificarRetiroDefinitivoSATReq" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLNotificarRetiroDefinitivoSATReq.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLNotificarRetiroDefinitivoSATReq_inputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLNotificarRetiroDefinitivoSATReq_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLNotificarRetiroDefinitivoSATReq_outputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLNotificarRetiroDefinitivoSATReq_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLNotificarRetiroDefinitivoSATReq_xsltStyleSheet" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLNotificarRetiroDefinitivoSATReq_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLAffiliation" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLAffiliation.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLAffiliation_inputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLAffiliation_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLAffiliation_outputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLAffiliation_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLAffiliation_xsltStyleSheet" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLAffiliation_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaJuridica_datamapper" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaJuridica.datamapper</file>
+            <path>/_system/governance/custom</path>
+            <mediaType/>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaJuridica_datamapper_diagram" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaJuridica.datamapper_diagram</file>
+            <path>/_system/governance/custom</path>
+            <mediaType/>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaJuridica_dmc" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaJuridica.dmc</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/datamapper</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaJuridica_inputSample_txt" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaJuridica_inputSample.txt</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaJuridica_inputSchema_json" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaJuridica_inputSchema.json</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/json</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaJuridica_outputSchema_json" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaJuridica_outputSchema.json</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/json</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaJuridica_xsltStyleSheet_xml" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaJuridica_xsltStyleSheet.xml</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/xml</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaNatural_datamapper" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaNatural.datamapper</file>
+            <path>/_system/governance/custom</path>
+            <mediaType/>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaNatural_datamapper_diagram" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaNatural.datamapper_diagram</file>
+            <path>/_system/governance/custom</path>
+            <mediaType/>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaNatural_inputSchema_json" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaNatural_inputSchema.json</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/json</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaNatural_inputSample_txt" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaNatural_inputSample.txt</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaNatural_outputSchema_json" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaNatural_outputSchema.json</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/json</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaNatural_xsltStyleSheet_xml" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaNatural_xsltStyleSheet.xml</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/xml</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLPersonaNatural_dmc" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLPersonaNatural.dmc</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/datamapper</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLNotificarCentroTrabajo" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLNotificarCentroTrabajo.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLNotificarCentroTrabajo_inputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLNotificarCentroTrabajo_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLNotificarCentroTrabajo_outputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLNotificarCentroTrabajo_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLNotificarCentroTrabajo_xsltStyleSheet" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLNotificarCentroTrabajo_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JSONToXMLInicioRelacionLaboral" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JSONToXMLInicioRelacionLaboral.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JSONToXMLInicioRelacionLaboral_inputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JSONToXMLInicioRelacionLaboral_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JSONToXMLInicioRelacionLaboral_outputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JSONToXMLInicioRelacionLaboral_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JSONToXMLInicioRelacionLaboral_xsltStyleSheet" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JSONToXMLInicioRelacionLaboral_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTerminarRelacionLaboral" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLTerminarRelacionLaboral.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTerminarRelacionLaboral_inputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLTerminarRelacionLaboral_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTerminarRelacionLaboral_outputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLTerminarRelacionLaboral_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTerminarRelacionLaboral_xsltStyleSheet" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLTerminarRelacionLaboral_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTransferAffilliations_datamapper" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLTransferAffilliations.datamapper</file>
+            <path>/_system/governance/custom</path>
+            <mediaType/>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTransferAffilliations_datamapper_diagram" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLTransferAffilliations.datamapper_diagram</file>
+            <path>/_system/governance/custom</path>
+            <mediaType/>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTransferAffilliations_dmc" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLTransferAffilliations.dmc</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/datamapper</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTransferAffilliations_inputSchema_json" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLTransferAffilliations_inputSchema.json</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/json</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTransferAffilliations_outputSchema_json" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLTransferAffilliations_outputSchema.json</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/json</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTransferAffilliations_xsltStyleSheet_xml" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLTransferAffilliations_xsltStyleSheet.xml</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/xml</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTransferEmployer" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLTransferEmployer.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTransferEmployer_inputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLTransferEmployer_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTransferEmployer_outputSchema" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLTransferEmployer_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLTransferEmployer_xsltStyleSheet" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>JsonToXMLTransferEmployer_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLVariationWorkplaces_datamapper" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLVariationWorkplaces.datamapper</file>
+            <path>/_system/governance/custom</path>
+            <mediaType/>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLVariationWorkplaces_datamapper_diagram" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLVariationWorkplaces.datamapper_diagram</file>
+            <path>/_system/governance/custom</path>
+            <mediaType/>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLVariationWorkplaces_dmc" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLVariationWorkplaces.dmc</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/datamapper</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLVariationWorkplaces_inputSchema_json" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLVariationWorkplaces_inputSchema.json</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/json</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLVariationWorkplaces_outputSchema_json" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLVariationWorkplaces_outputSchema.json</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/json</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="JsonToXMLVariationWorkplaces_xsltStyleSheet_xml" groupId="com.axa.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>JsonToXMLVariationWorkplaces_xsltStyleSheet.xml</file>
+            <path>/_system/governance/custom</path>
+            <mediaType>application/xml</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+</artifacts>

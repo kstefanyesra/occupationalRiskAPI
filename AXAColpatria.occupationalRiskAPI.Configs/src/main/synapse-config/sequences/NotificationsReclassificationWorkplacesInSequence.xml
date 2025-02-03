@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="NotificationsReclassificationWorkplacesInSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="full"/>
+    <propertyGroup description="Se capturan los encabezados del consumo">
+        <property expression="$trp:Canal" name="HeaderCanal" scope="default" type="STRING"/>
+        <property expression="$trp:IdCorrelacionConsumidor" name="HeaderIdCorrelacionConsumidor" scope="default" type="STRING"/>
+        <property expression="$trp:IdTransaccion" name="HeaderIdTransaccion" scope="default" type="STRING"/>
+        <property expression="$trp:PeticionFecha" name="HeaderPeticionFecha" scope="default" type="STRING"/>
+        <property expression="$trp:Usuario" name="HeaderUsuario" scope="default" type="STRING"/>
+    </propertyGroup>
+    <!-- <property expression="//*[local-name()='Name']/text()" name="Nombre" scope="default" type="STRING"/> -->
+    <datamapper config="gov:datamapper/JsonToXMLReclassificationWorkplaces.dmc" inputSchema="gov:datamapper/JsonToXMLReclassificationWorkplaces_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/JsonToXMLReclassificationWorkplaces_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/JsonToXMLReclassificationWorkplaces_xsltStyleSheet.xml"/>
+    <header name="SOAPAction" scope="transport" value="NotificarReclasificacionCentroTrabajoSAT"/>
+    <call>
+        <endpoint key="NotificationsReclassificationWorkplacesMiEndpoint"/>
+    </call>
+    <property expression="//*[local-name()='RtaCodHost']/text()" name="RtaCodHost" scope="default" type="STRING"/>
+    <property expression="//*[local-name()='RtaDescCanal']/text()" name="RtaDescCanal" scope="default" type="STRING"/>
+    <property expression="//*[local-name()='Categoria']/text()" name="Categoria" scope="default" type="STRING"/>
+    <filter regex="0" source="$ctx:RtaCodHost">
+        <then>
+            <payloadFactory media-type="json">
+                <format>
+                    {
+            "MsgRsHdr": {
+                "error": null,
+            },
+            "body": {      
+            "results": {
+                "RtaCodHost": $1,
+                "RtaDescCanal": "$2"
+            }           
+                  }
+        }
+                </format>
+                <args>
+                    <arg evaluator="xml" expression="$ctx:RtaCodHost"/>
+                    <arg evaluator="xml" expression="$ctx:RtaDescCanal"/>
+                </args>
+            </payloadFactory>
+        </then>
+        <else>
+            <payloadFactory media-type="json">
+                <format>{
+                        "MsgRsHdr": {
+                            "error": {
+                                "Status": {
+                                    "StatusCode":$1,
+                                    "Severity": null,
+                                    "StatusDesc": "$3",
+                                    "AdditionalStatus": {
+                                        "ServerStatusCode": "$2",
+                                        "Severity": null,
+                                        "Category": "$4",
+                                        "StatusDesc": "$3"
+                                    }
+                                }
+                           }
+                        },
+                        "body": null
+                    }</format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('axis2','HTTP_SC')"/>
+                    <arg evaluator="xml" expression="get-property('RtaCodHost')"/>
+                    <arg evaluator="xml" expression="get-property('RtaDescCanal')"/>
+                    <arg evaluator="xml" expression="get-property('Categoria')"/>
+                </args>
+            </payloadFactory>
+        </else>
+    </filter>
+    <property name="HTTP_SC" scope="axis2" type="STRING" value="200"/>
+    <respond/>
+</sequence>

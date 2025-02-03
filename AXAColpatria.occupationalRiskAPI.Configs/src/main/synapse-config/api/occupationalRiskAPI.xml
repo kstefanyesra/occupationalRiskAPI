@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/notifications" name="occupationalRiskAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsVariationWorkplacesInSequence" methods="PUT" uri-template="/variationworkplaces">
+        <outSequence/>
+    </resource>
+    <!--
+        <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsReclassificationWorkplacesInSequence" methods="PUT" uri-template="/reclassificationworkplaces">
+        <outSequence/>
+    </resource>
+
+    <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsNoveltyWorkplacesInSequence" methods="PUT" uri-template="/noveltyworkplaces">
+        <outSequence/>
+    </resource>
+
+    <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsTerminationEmploymentRelationshipInSequence" methods="DELETE" uri-template="/employmentrelationship">
+        <outSequence/>
+    </resource>
+
+    <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsDefinitiveWithdrawalInSequence" methods="DELETE" uri-template="/definitivewithdrawal">
+        <outSequence/>
+    </resource>
+
+    <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsAffiliationsInSequence"   methods="PUT" uri-template="/affiliations">
+        <outSequence/>
+    </resource>
+    <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsTransferAffiliationsInSequence"  methods="PUT" uri-template="/transferaffiliations">
+        <outSequence/>
+    </resource>
+    <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsTransferEmployerInSequence" methods="PUT" uri-template="/transferemployment">
+        <outSequence/>
+    </resource>
+        <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsStartEmploymentRelationshipInSequence" methods="PUT" uri-template="/employmentrelationship">
+        <outSequence/>
+    </resource>
+        <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsArrearContributionsInSequence" methods="PUT" uri-template="/arrearcontributions">
+        <outSequence/>
+    </resource>
+          <resource faultSequence="occupationalRiskAPIFaultSequence" inSequence="NotificationsNoveltyHeadquartersInSequence" methods="PUT" uri-template="/noveltyheadquarters">
+        <outSequence/>
+    </resource>
+
+ -->
+</api>

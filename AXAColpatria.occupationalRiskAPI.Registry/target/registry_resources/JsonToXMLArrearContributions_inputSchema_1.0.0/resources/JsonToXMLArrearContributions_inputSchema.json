@@ -1,0 +1,65 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Body" : {
+      "id" : "http://wso2jsonschema.org/Body",
+      "type" : "object",
+      "properties" : {
+        "Empleador" : {
+          "id" : "http://wso2jsonschema.org/Body/Empleador",
+          "type" : "object",
+          "properties" : {
+            "InformacionEmpleador" : {
+              "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador",
+              "type" : "object",
+              "properties" : {
+                "Identificacion" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion",
+                  "type" : "object",
+                  "properties" : {
+                    "TipoIdentificacion" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion",
+                      "type" : "string"
+                    },
+                    "Identificacion" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion",
+                      "type" : "string"
+                    },
+                    "ConsecutivoNIT" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "AcuerdoPago" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago",
+                  "type" : "object",
+                  "properties" : {
+                    "Mora" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora",
+                      "type" : "object",
+                      "properties" : {
+                        "Periodo" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo",
+                          "type" : "string"
+                        },
+                        "TipoReporte" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte",
+                          "type" : "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

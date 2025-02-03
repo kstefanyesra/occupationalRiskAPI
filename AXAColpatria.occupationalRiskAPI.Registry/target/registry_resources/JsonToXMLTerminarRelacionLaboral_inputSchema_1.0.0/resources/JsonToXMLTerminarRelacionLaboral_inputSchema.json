@@ -1,0 +1,117 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "inputType" : "JSON",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "Body" : {
+      "id" : "http://wso2jsonschema.org/Body",
+      "type" : "object",
+      "properties" : {
+        "Empleador" : {
+          "id" : "http://wso2jsonschema.org/Body/Empleador",
+          "type" : "object",
+          "properties" : {
+            "InformacionEmpleador" : {
+              "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador",
+              "type" : "object",
+              "properties" : {
+                "Identificacion" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion",
+                  "type" : "object",
+                  "properties" : {
+                    "TipoDocumentoEmpleador" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoDocumentoEmpleador",
+                      "type" : "string"
+                    },
+                    "NumeroDocumentoEmpleador" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/NumeroDocumentoEmpleador",
+                      "type" : "string"
+                    },
+                    "ConsecutivoNITEmpleador" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNITEmpleador",
+                      "type" : "string"
+                    }
+                  }
+                },
+                "SedeAsociada" : {
+                  "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada",
+                  "type" : "object",
+                  "properties" : {
+                    "CodigoSede" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CodigoSede",
+                      "type" : "string"
+                    },
+                    "CentroTrabajoAsociado" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado",
+                      "type" : "object",
+                      "properties" : {
+                        "InformacionCentroTrabajo" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo",
+                          "type" : "object",
+                          "properties" : {
+                            "CodigoCentroTrabajo" : {
+                              "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/CentroTrabajoAsociado/InformacionCentroTrabajo/CodigoCentroTrabajo",
+                              "type" : "string"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "EmpleadosAsociadas" : {
+                      "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas",
+                      "type" : "object",
+                      "properties" : {
+                        "FechaFinNovedad" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/FechaFinNovedad",
+                          "type" : "string"
+                        },
+                        "Identificacion" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion",
+                          "type" : "object",
+                          "properties" : {
+                            "TipoDocumentoEmpleado" : {
+                              "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/TipoDocumentoEmpleado",
+                              "type" : "string"
+                            },
+                            "NumeroDocumentoEmpleado" : {
+                              "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/Identificacion/NumeroDocumentoEmpleado",
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "DatosBasicos" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos",
+                          "type" : "object",
+                          "properties" : {
+                            "PrimerNombreEmpleado" : {
+                              "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerNombreEmpleado",
+                              "type" : "string"
+                            },
+                            "PrimerApellidoEmpleado" : {
+                              "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/DatosBasicos/PrimerApellidoEmpleado",
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "TipoCotizante" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/TipoCotizante",
+                          "type" : "string"
+                        },
+                        "SubTipoCotizante" : {
+                          "id" : "http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/SedeAsociada/EmpleadosAsociadas/SubTipoCotizante",
+                          "type" : "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

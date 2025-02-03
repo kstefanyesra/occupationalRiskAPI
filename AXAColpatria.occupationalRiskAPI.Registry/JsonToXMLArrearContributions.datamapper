@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="Body" schemaDataType="OBJECT" level="2">
+        <node name="Empleador" schemaDataType="OBJECT" level="3">
+          <node name="InformacionEmpleador" schemaDataType="OBJECT" level="4">
+            <node name="Identificacion" schemaDataType="OBJECT" level="5">
+              <node name="TipoIdentificacion" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.0/@node.0/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="Identificacion" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.0/@node.1/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <node name="ConsecutivoNIT" schemaDataType="STRING" level="6">
+                <properties key="type" value="string"/>
+                <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT"/>
+                <properties key="nullable" value="false"/>
+                <outNode>
+                  <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.0/@node.2/@inNode"/>
+                </outNode>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <node name="AcuerdoPago" schemaDataType="OBJECT" level="5">
+              <node name="Mora" schemaDataType="OBJECT" level="6">
+                <node name="Periodo" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.0/@node.0/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <node name="TipoReporte" schemaDataType="STRING" level="7">
+                  <properties key="type" value="string"/>
+                  <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode>
+                    <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.1/@node.0/@node.0/@node.1/@node.0/@node.1/@inNode"/>
+                  </outNode>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{Periodo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{TipoIdentificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion, type=string}, Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion, type=string}, ConsecutivoNIT={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT, type=string}}"/>
+              <properties key="properties_id" value="{Mora={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora, type=object, properties={Periodo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoIdentificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion, type=string}, Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion, type=string}, ConsecutivoNIT={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT, type=string}}}, AcuerdoPago={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago, type=object, properties={Mora={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora, type=object, properties={Periodo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}}}}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/Body/Empleador"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{InformacionEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoIdentificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion, type=string}, Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion, type=string}, ConsecutivoNIT={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT, type=string}}}, AcuerdoPago={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago, type=object, properties={Mora={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora, type=object, properties={Periodo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}}}}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{Empleador={id=http://wso2jsonschema.org/Body/Empleador, type=object, properties={InformacionEmpleador={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoIdentificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion, type=string}, Identificacion={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion, type=string}, ConsecutivoNIT={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT, type=string}}}, AcuerdoPago={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago, type=object, properties={Mora={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora, type=object, properties={Periodo={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}}}}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="soapenv:Envelope" schemaDataType="OBJECT" level="1">
+      <node name="soapenv:Header" schemaDataType="STRING" level="2">
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Header"/>
+        <properties key="nullable" value="false"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <node name="soapenv:Body" schemaDataType="OBJECT" level="2">
+        <node name="v1:NotificarMoraAportesSATReq" schemaDataType="OBJECT" level="3">
+          <node name="Header" schemaDataType="OBJECT" level="4">
+            <node name="Canal" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/Canal"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.2"/>
+            </node>
+            <node name="IdCorrelacionConsumidor" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/IdCorrelacionConsumidor"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.2"/>
+            </node>
+            <node name="IdTransaccion" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/IdTransaccion"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.2/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.2"/>
+            </node>
+            <node name="PeticionFecha" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/PeticionFecha"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.3/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.2"/>
+            </node>
+            <node name="Usuario" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/Usuario"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@operators.4/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.2"/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header"/>
+            <properties key="nullable" value="false"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <node name="Body" schemaDataType="OBJECT" level="4">
+            <node name="Empleador" schemaDataType="OBJECT" level="5">
+              <node name="InformacionEmpleador" schemaDataType="OBJECT" level="6">
+                <node name="Identificacion" schemaDataType="OBJECT" level="7">
+                  <node name="TipoIdentificacion" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+                  </node>
+                  <node name="Identificacion" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+                  </node>
+                  <node name="ConsecutivoNIT" schemaDataType="STRING" level="8">
+                    <properties key="type" value="string"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT"/>
+                    <properties key="nullable" value="false"/>
+                    <outNode/>
+                    <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion"/>
+                  <properties key="nullable" value="false"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <node name="AcuerdoPago" schemaDataType="OBJECT" level="7">
+                  <node name="Mora" schemaDataType="OBJECT" level="8">
+                    <node name="Periodo" schemaDataType="STRING" level="9">
+                      <properties key="type" value="string"/>
+                      <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo"/>
+                      <properties key="nullable" value="false"/>
+                      <outNode/>
+                      <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+                    </node>
+                    <node name="TipoReporte" schemaDataType="STRING" level="9">
+                      <properties key="type" value="string"/>
+                      <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte"/>
+                      <properties key="nullable" value="false"/>
+                      <outNode/>
+                      <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@node.1/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+                    </node>
+                    <properties key="type" value="object"/>
+                    <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora"/>
+                    <properties key="nullable" value="false"/>
+                    <properties key="properties_id" value="{Periodo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}"/>
+                    <outNode/>
+                    <inNode/>
+                  </node>
+                  <properties key="type" value="object"/>
+                  <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago"/>
+                  <properties key="nullable" value="false"/>
+                  <properties key="properties_id" value="{TipoIdentificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion, type=string}, ConsecutivoNIT={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT, type=string}}"/>
+                  <properties key="properties_id" value="{Mora={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora, type=object, properties={Periodo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}}}"/>
+                  <outNode/>
+                  <inNode/>
+                </node>
+                <properties key="type" value="object"/>
+                <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador"/>
+                <properties key="nullable" value="false"/>
+                <properties key="properties_id" value="{Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoIdentificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion, type=string}, ConsecutivoNIT={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT, type=string}}}, AcuerdoPago={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago, type=object, properties={Mora={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora, type=object, properties={Periodo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}}}}}"/>
+                <outNode/>
+                <inNode/>
+              </node>
+              <properties key="type" value="object"/>
+              <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador"/>
+              <properties key="nullable" value="false"/>
+              <properties key="properties_id" value="{InformacionEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoIdentificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion, type=string}, ConsecutivoNIT={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT, type=string}}}, AcuerdoPago={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago, type=object, properties={Mora={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora, type=object, properties={Periodo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}}}}}}}"/>
+              <outNode/>
+              <inNode/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{Canal={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/Canal, type=string}, IdCorrelacionConsumidor={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/IdCorrelacionConsumidor, type=string}, IdTransaccion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/IdTransaccion, type=string}, PeticionFecha={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/PeticionFecha, type=string}, Usuario={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/Usuario, type=string}}"/>
+            <properties key="properties_id" value="{Empleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador, type=object, properties={InformacionEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoIdentificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion, type=string}, ConsecutivoNIT={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT, type=string}}}, AcuerdoPago={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago, type=object, properties={Mora={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora, type=object, properties={Periodo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}}}}}}}}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="namespaces" value="{prefix=v1, url=http://AXAColpatria.Tarea.GestionARL.NotificarSAT.Esquemas/NotificarMoraAportesSATReq/V1.0}"/>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{Header={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header, type=object, properties={Canal={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/Canal, type=string}, IdCorrelacionConsumidor={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/IdCorrelacionConsumidor, type=string}, IdTransaccion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/IdTransaccion, type=string}, PeticionFecha={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/PeticionFecha, type=string}, Usuario={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/Usuario, type=string}}}, Body={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body, type=object, properties={Empleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador, type=object, properties={InformacionEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoIdentificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion, type=string}, ConsecutivoNIT={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT, type=string}}}, AcuerdoPago={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago, type=object, properties={Mora={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora, type=object, properties={Periodo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}}}}}}}}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/soapenv:Body"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{v1:NotificarMoraAportesSATReq={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq, type=object, properties={Header={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header, type=object, properties={Canal={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/Canal, type=string}, IdCorrelacionConsumidor={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/IdCorrelacionConsumidor, type=string}, IdTransaccion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/IdTransaccion, type=string}, PeticionFecha={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/PeticionFecha, type=string}, Usuario={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Header/Usuario, type=string}}}, Body={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body, type=object, properties={Empleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador, type=object, properties={InformacionEmpleador={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador, type=object, properties={Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion, type=object, properties={TipoIdentificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/TipoIdentificacion, type=string}, Identificacion={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/Identificacion, type=string}, ConsecutivoNIT={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/Identificacion/ConsecutivoNIT, type=string}}}, AcuerdoPago={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago, type=object, properties={Mora={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora, type=object, properties={Periodo={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/Periodo, type=string}, TipoReporte={id=http://wso2jsonschema.org/soapenv:Body/v1:NotificarMoraAportesSATReq/Body/Empleador/InformacionEmpleador/AcuerdoPago/Mora/TipoReporte, type=string}}}}}}}}}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/},{prefix=v1, url=http://AXAColpatria.Tarea.GestionARL.NotificarSAT.Esquemas/NotificarMoraAportesSATReq/V1.0}"/>
+      <properties key="namespaces" value="{prefix=soapenv, url=http://schemas.xmlsoap.org/soap/envelope/}"/>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+  <operators xsi:type="datamapper:Properties" defaultOutputConnectors="1" operatorType="PROPERTIES" name="HeaderCanal">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink/>
+            <outgoingLink/>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.0/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+  <operators xsi:type="datamapper:Properties" defaultOutputConnectors="1" operatorType="PROPERTIES" name="HeaderIdCorrelacionConsumidor">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink/>
+            <outgoingLink/>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.1/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+  <operators xsi:type="datamapper:Properties" defaultOutputConnectors="1" operatorType="PROPERTIES" name="HeaderIdTransaccion">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink/>
+            <outgoingLink/>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.2/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+  <operators xsi:type="datamapper:Properties" defaultOutputConnectors="1" operatorType="PROPERTIES" name="HeaderPeticionFecha">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink/>
+            <outgoingLink/>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.3/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+  <operators xsi:type="datamapper:Properties" defaultOutputConnectors="1" operatorType="PROPERTIES" name="HeaderUsuario">
+    <basicContainer>
+      <leftContainer/>
+      <rightContainer>
+        <rightConnectors>
+          <outNode>
+            <outgoingLink/>
+            <outgoingLink/>
+            <outgoingLink inNode="//@output/@treeNode.0/@node.1/@node.0/@node.0/@node.4/@inNode"/>
+          </outNode>
+        </rightConnectors>
+      </rightContainer>
+    </basicContainer>
+  </operators>
+</datamapper:DataMapperRoot>
